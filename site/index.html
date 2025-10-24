@@ -2,29 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sunny Tabbies 🐱</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background: #fff8f0;
-      color: #333;
-    }
-    h1 {
-      font-size: 2.5em;
-      color: #d2691e;
-    }
-    p {
-      font-size: 1.2em;
-      margin-top: 0.5em;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SunnyTabbies</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🐾 Welcome to Sunny Tabbies!</h1>
-  <p>Your site is live on Cloudflare Pages.</p>
-  <p>Stay tuned — kitten gallery coming soon 🐈</p>
+  <header class="container">
+    <h1>SunnyTabbies</h1>
+    <p class="subtle">Photos & short clips of our kittens</p>
+  </header>
+
+  <main class="container">
+    <div id="gallery" class="gallery" aria-live="polite"></div>
+  </main>
+
+  <script src="src/main.js"></script>
 </body>
 </html>
