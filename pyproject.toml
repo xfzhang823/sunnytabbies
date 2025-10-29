@@ -1,0 +1,12 @@
+[project]
+name = "sunnytabbies-media-tools"
+version = "0.1.0"
+description = "Helper scripts to generate thumbnails and posters for SunnyTabbies gallery."
+requires-python = ">=3.9"
+
+dependencies = [
+    "black>=25.9.0",
+    "pillow",
+    "pylance>=0.38.2",
+    "pylint>=3.3.9",
+]

@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SunnyTabbies</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="container">
-    <h1>SunnyTabbies</h1>
-    <p class="subtle">Photos & short clips of our kittens</p>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunny Tabbies</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Sunny Tabbies</h1>
+      <p class="subtle">Photos & short clips of our kittens</p>
+    </header>
 
-  <main class="container">
-    <div id="gallery" class="gallery" aria-live="polite"></div>
-  </main>
+    <div class="fullbleed">
+      <div id="gallery" class="gallery" aria-live="polite"></div>
+    </div>
 
-  <script src="src/main.js"></script>
-</body>
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+      <button id="lb-close" aria-label="Close" style="position:absolute;top:12px;right:14px">✕</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
+
+

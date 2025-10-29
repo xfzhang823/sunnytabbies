@@ -1,14 +1,100 @@
 [
   {
     "type": "image",
-    "src": "https://drive.google.com/thumbnail?id=1Hw39-iin-6-CjyJZhC4fVvZAKTgIfPnJ",
-    "title": "Sunny — week 4 (first portrait)",
-    "alt": "Orange tabby kitten looking at the camera"
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_4_oct_05_to_oct_11_crawling/kittens%20together%20photo_1.3.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_4_oct_05_to_oct_11_crawling/kittens%20together%20photo_1.3.1.jpg",
+    "title": "Week 4: first portrait",
+    "alt": "Kittens’ group portrait"
   },
   {
     "type": "image",
-    "src": "https://drive.google.com/thumbnail?id=1BnghutDBCjGYxas1TXXz46ZQagAVFvPQ",
-    "title": "Sunny side up",
-    "alt": "Kitten looking up"
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/2%20kittens%20pose%20after%20fighting_1.4.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/2%20kittens%20pose%20after%20fighting_1.4.1.jpg",
+    "title": "Week 5: two brothers right after wrestling",
+    "alt": "Two brothers posing right after wrestling"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20and%20finger_1.6.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20and%20finger_1.6.1.jpg",
+    "title": "Week 5: kitten touching finger",
+    "alt": "Kitten starts socializing with a human hand"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20bites%20carrier%20handle_1.4.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20bites%20carrier%20handle_1.4.1.jpg",
+    "title": "Week 5: kitten biting carrier handle",
+    "alt": "Kitten plays with a carrier handle"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20crossing%20leg%20look%20forward_2.1.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20crossing%20leg%20look%20forward_2.1.1.jpg",
+    "title": "Week 5: kitten looking forward",
+    "alt": "Kitten looks forward with legs crossed"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20play%20wt%20ball_2.2.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20play%20wt%20ball_2.2.1.jpg",
+    "title": "Week 5: kitten playing with ball",
+    "alt": "Kitten plays with a foam ball"
+  },
+  {
+    "type": "video",
+    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten_in_wheel_2025_10_17.mp4",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten_in_wheel_2025_10_17-poster.jpg",
+    "title": "Week 5: kitten playing in wheel",
+    "alt": "Kitten tries an exercise wheel for the first time"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20into%20camera%20with%20siblings_2.4.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20into%20camera%20with%20siblings_2.4.1.jpg",
+    "title": "Week 6: looking into camera on black foam",
+    "alt": "Kitten looks into the camera with brothers in the background"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20wile%20brothers%20sleeping_2.5.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20wile%20brothers%20sleeping_2.5.1.jpg",
+    "title": "Week 6: looking while siblings sleep",
+    "alt": "Kitten looks at the camera while resting on sleeping siblings"
+  },
+  {
+    "type": "video",
+    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kittens_tussling_brother_bdrm_on_black_foams_2025_10_19.mp4",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kittens_tussling_brother_bdrm_on_black_foams_2025_10_19-poster.jpg",
+    "title": "Week 6: kittens wrestling and playing",
+    "alt": "Kittens play and wrestle each other in the bedroom"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_chandler_pond_2025_10_26_1.2.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_chandler_pond_2025_10_26_1.2.1.jpg",
+    "title": "Week 7: on top of carrier — Chandler Pond, Brighton",
+    "alt": "Kitten looks pensively on top of the carrier (near Chandler Pond, Brighton)"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_head_shot_chandler_pond_2025_10_26_1.2.1_1.1.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_head_shot_chandler_pond_2025_10_26_1.2.1_1.1.1.jpg",
+    "title": "Week 7: looking into camera — Chandler Pond, Brighton",
+    "alt": "Kitten looks into the camera on top of the carrier (near Chandler Pond, Brighton)"
+  },
+  {
+    "type": "video",
+    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/boy_kitten_walk_outside_2025_10_26.mp4",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/boy_kitten_walk_outside_2025_10_26-poster.jpg",
+    "title": "Week 7: boy kitten walking outside — Chandler Pond",
+    "alt": "Boy kitten follows the camera outside near Chandler Pond, Brighton"
+  },
+  {
+    "type": "video",
+    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_walk_outside_2025_10_26.mp4",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_walk_outside_2025_10_26-poster.jpg",
+    "title": "Week 7: girl kitten walking outside — Chandler Pond",
+    "alt": "Girl kitten follows the camera outside near Chandler Pond, Brighton"
   }
 ]
