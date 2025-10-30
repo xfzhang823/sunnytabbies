@@ -42,8 +42,8 @@
     "alt": "Kitten plays with a foam ball"
   },
   {
-    "type": "video",
-    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten_in_wheel_2025_10_17.mp4",
+    "type": "youtube",
+    "videoId": "hdUNZY8vsJg",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten_in_wheel_2025_10_17-poster.jpg",
     "title": "Week 5: kitten playing in wheel",
     "alt": "Kitten tries an exercise wheel for the first time"
@@ -59,12 +59,12 @@
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20wile%20brothers%20sleeping_2.5.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20wile%20brothers%20sleeping_2.5.1.jpg",
-    "title": "Week 6: looking while siblings sleep",
+    "title": "Week 6: looking up while siblings sleep",
     "alt": "Kitten looks at the camera while resting on sleeping siblings"
   },
   {
-    "type": "video",
-    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kittens_tussling_brother_bdrm_on_black_foams_2025_10_19.mp4",
+    "type": "youtube",
+    "videoId": "A4SEFQdXU6A",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kittens_tussling_brother_bdrm_on_black_foams_2025_10_19-poster.jpg",
     "title": "Week 6: kittens wrestling and playing",
     "alt": "Kittens play and wrestle each other in the bedroom"
@@ -84,15 +84,15 @@
     "alt": "Kitten looks into the camera on top of the carrier (near Chandler Pond, Brighton)"
   },
   {
-    "type": "video",
-    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/boy_kitten_walk_outside_2025_10_26.mp4",
+    "type": "youtube",
+    "videoId": "EpqI8PyVP1g",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/boy_kitten_walk_outside_2025_10_26-poster.jpg",
     "title": "Week 7: boy kitten walking outside — Chandler Pond",
     "alt": "Boy kitten follows the camera outside near Chandler Pond, Brighton"
   },
   {
-    "type": "video",
-    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_walk_outside_2025_10_26.mp4",
+    "type": "youtube",
+    "videoId": "Axe7ovtP-Jw",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_walk_outside_2025_10_26-poster.jpg",
     "title": "Week 7: girl kitten walking outside — Chandler Pond",
     "alt": "Girl kitten follows the camera outside near Chandler Pond, Brighton"

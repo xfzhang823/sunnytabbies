@@ -9,19 +9,67 @@
   <body>
     <header class="container">
       <h1>Sunny Tabbies</h1>
-      <p class="subtle">Photos & short clips of our kittens</p>
     </header>
 
+    <!-- Adoption banner (JS fills text) -->
+    <section id="adopt-banner" class="fullbleed">
+      <div class="container">
+        <div class="adopt-banner" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Adoption details -->
+    <section id="adopt" class="container adopt-section">
+      <h2>Adopt a Sunny Tabby</h2>
+
+      <div class="adopt-grid">
+        <!-- Availability -->
+        <article>
+          <h3>Availability</h3>
+          <p id="adopt-availability"></p>
+        </article>
+
+        <!-- Rehoming -->
+        <article>
+          <!-- <h3>Rehoming</h3>
+          <p>
+            We are just rehoming our family cat Yuumi's litter.
+          </p> -->
+          <p>
+            <a id="adopt-email" class="btn" href="#">Email us</a>
+          </p>
+          <small id="adopt-preface"></small>
+        </article>
+
+        <!-- How it works -->
+        <article class="wide">
+          <h3>How it works</h3>
+          <ol>
+            <li>Come meet the kittens (by appointment).</li>
+            <li>Once we make a match — we'll mark as <em>Reserved</em>.</li>
+            <li>We will continue to share/update with you videos/pics</li>
+            <li>Pickup when ready (weaned & litter-trained).</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <!-- Gallery heading + tagline -->
+    <section id="gallery-intro" class="container">
+      <h2>Gallery</h2>
+      <p class="subtle">Photos & short videos of kittens seeking new homes</p>
+    </section>
+
+    <!-- Gallery grid -->
     <div class="fullbleed">
       <div id="gallery" class="gallery" aria-live="polite"></div>
     </div>
 
+    <!-- Lightbox -->
     <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
       <button id="lb-close" aria-label="Close" style="position:absolute;top:12px;right:14px">✕</button>
     </div>
 
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
   </body>
 </html>
-
-

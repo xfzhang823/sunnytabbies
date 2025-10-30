@@ -1,0 +1,38 @@
+{
+  "litter": {
+    "born_on": "2025-09-14",
+    "total": 6,
+    "boys": 3,
+    "girls": 3,
+    "ready_window": "late November",
+    "location": "Brookline, MA"
+  },
+  "status": {
+    "available": 4,
+    "reserved": 2
+  },
+  "policies": {
+    "home_preferences": {
+      "ideal_family": "Caring homes that can offer plenty of time, play, and companionship",
+      "environment": "Hybrid homes with safe ways to explore the 'great outdoors",
+      "outdoor_options": [
+        "Enclosed patios, catios, or fenced yards",
+        "Supervised yard time or leash/harness walks",
+        "GPS or smart collars for added safety when exploring"
+      ],
+      "safety_notes": [
+        "No unsupervised free roaming busy roads or unfamiliar neighborhoods",
+        "No overnights outside",
+        "Balanced safety, companionship, and healthy sense of adventure are our top priorities"
+      ]
+    },
+    "visit_first": true,
+    "sibling_adopting_together": true,
+    "not_breeders_note": "Family cat’s litter—we’re just rehoming responsibly."
+  },
+  "contact": {
+    "email": "xzhang823@yahoo.com",
+    "preface": "Tell us about your home, other pets, and experience with pets."
+  }
+}
+
