@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const adopt = await adoptRes.json();
   renderAdoptionSummary(adopt);
 
+  // pointer-coarseness flag (used for mobile-vs-desktop UX)
+  const IS_COARSE = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+
   function renderAdoptionSummary(adopt) {
     if (!adopt) return;
     const { litter, status, policies, contact } = adopt;
@@ -27,16 +30,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (banner) banner.textContent = bannerText;
 
     // Availability panel (left)
-    const prefs = policies.home_preferences || {};
-    const outdoor = Array.isArray(prefs.outdoor_options) ? prefs.outdoor_options.join(" ") : "";
-    const safety = Array.isArray(prefs.safety_notes) ? prefs.safety_notes.join(" ") : "";
-
     if (availability) {
       const prefs = policies.home_preferences || {};
       const outdoor = Array.isArray(prefs.outdoor_options) ? prefs.outdoor_options : [];
       const safety = Array.isArray(prefs.safety_notes) ? prefs.safety_notes : [];
 
-      // join with line breaks instead of spaces, and keep normal font
       const outdoorList = outdoor.map(o => `• ${o}`).join("<br>");
       const safetyList  = safety.map(s => `• ${s}`).join("<br>");
       const siblingLine = policies.sibling_adopting_together
@@ -80,9 +78,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (prefaceEl && contact?.preface) {
       prefaceEl.textContent = contact.preface;
     }
-
   }
-
 
   const gallery = document.getElementById("gallery");
 
@@ -119,24 +115,29 @@ document.addEventListener("DOMContentLoaded", async () => {
   function addPopoutButton(containerEl, onClick) {
     // ensure container is positioned
     const style = containerEl.style;
-    if (!/relative|absolute|fixed/.test(style.position)) {
-      style.position = "relative";
-    }
+    if (!/relative|absolute|fixed/.test(style.position)) style.position = "relative";
+
     const btn = document.createElement("button");
     btn.type = "button";
     btn.setAttribute("aria-label", "Open in popup");
     btn.style.position = "absolute";
     btn.style.top = "8px";
     btn.style.right = "8px";
-    btn.style.padding = "6px 8px";
+    btn.style.width = "44px";      // larger touch target
+    btn.style.height = "44px";
+    btn.style.display = "grid";
+    btn.style.placeItems = "center";
     btn.style.border = "0";
-    btn.style.borderRadius = "8px";
+    btn.style.borderRadius = "10px";
     btn.style.background = "rgba(0,0,0,.55)";
     btn.style.color = "white";
     btn.style.cursor = "pointer";
-    btn.style.fontSize = "12px";
+    btn.style.fontSize = "18px";
     btn.style.lineHeight = "1";
     btn.style.boxShadow = "0 2px 10px rgba(0,0,0,.3)";
+    btn.style.zIndex = "2";
+    btn.style.userSelect = "none";
+    btn.style.webkitTapHighlightColor = "transparent";
     btn.textContent = "⤢";
     btn.addEventListener("click", (e) => { e.stopPropagation(); onClick(); });
     containerEl.appendChild(btn);
@@ -224,36 +225,46 @@ document.addEventListener("DOMContentLoaded", async () => {
       playBtn.style.alignItems = "center";
       playBtn.style.justifyContent = "center";
       playBtn.style.pointerEvents = "none";
-      playBtn.innerHTML = `<div style="width:68px;height:48px;background:rgba(0,0,0,.6);border-radius:10px;display:flex;align-items:center;justify-content:center">
-        <div style="margin-left:4px;width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:16px solid white"></div>
-      </div>`;
+      playBtn.innerHTML = `
+        <div style="width:68px;height:48px;background:rgba(0,0,0,.6);border-radius:10px;display:flex;align-items:center;justify-content:center">
+          <div style="margin-left:4px;width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:16px solid white"></div>
+        </div>`;
 
-    const loadIframeInline = () => {
-      const iframe = document.createElement("iframe");
-      iframe.src = `https://www.youtube.com/embed/${vid}?autoplay=1&modestbranding=1&rel=0&playsinline=1`;
-      iframe.title = item.title || "YouTube video";
-      iframe.allow = "autoplay; encrypted-media; picture-in-picture; web-share";
-      iframe.setAttribute("allowfullscreen", "");
-      iframe.setAttribute("playsinline", "true");
-      iframe.style.position = "absolute";
-      iframe.style.top = "0";
-      iframe.style.left = "0";
-      iframe.style.width = "100%";
-      iframe.style.height = "100%";
-  
-      // Instead of replacing the whole wrapper, just swap the thumbnail safely
-      wrapper.replaceChild(iframe, thumb);
-    };
+      // inline iframe builder (desktop / precision pointers)
+      const loadIframeInline = () => {
+        const iframe = document.createElement("iframe");
+        iframe.src = `https://www.youtube.com/embed/${vid}?autoplay=1&modestbranding=1&rel=0&playsinline=1`;
+        iframe.title = item.title || "YouTube video";
+        iframe.allow = "autoplay; encrypted-media; picture-in-picture; web-share";
+        iframe.setAttribute("allowfullscreen", "");
+        iframe.setAttribute("playsinline", "true");
+        iframe.style.position = "absolute";
+        iframe.style.top = "0";
+        iframe.style.left = "0";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        // swap just the thumbnail (keeps iOS gesture chain intact)
+        wrapper.replaceChild(iframe, thumb);
+      };
 
+      const onThumbTap = (ev) => {
+        ev.preventDefault();
+        ev.stopPropagation();
+        if (IS_COARSE) {
+          openLightbox({ ...item, type: "youtube", src: item.src, videoId: vid });
+        } else {
+          loadIframeInline();
+        }
+      };
 
-      // inline play on thumbnail click
-      thumb.addEventListener("click", (ev) => { ev.stopPropagation(); loadIframeInline(); });
+      // hook up both events (not passive, since we call preventDefault)
+      thumb.addEventListener("pointerup", onThumbTap);
+      thumb.addEventListener("click", onThumbTap);
 
-      // add pop-out button to open in lightbox instead
-      addPopoutButton(wrapper, () => openLightbox({ ...item, type: "youtube", src: item.src, videoId: vid }));
-
+      // assemble
       wrapper.appendChild(thumb);
       wrapper.appendChild(playBtn);
+      addPopoutButton(wrapper, () => openLightbox({ ...item, type: "youtube", src: item.src, videoId: vid }));
       mediaEl = wrapper;
 
     } else if (item.type === "video") {
@@ -360,6 +371,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       iframe.title = item.title || "YouTube video";
       iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
       iframe.setAttribute("allowfullscreen", "");
+      iframe.setAttribute("playsinline", "true"); // important for iOS inline
       iframe.style.width = "95vw";
       iframe.style.maxWidth = "1200px";
       iframe.style.height = "calc(95vw * 9 / 16)";
