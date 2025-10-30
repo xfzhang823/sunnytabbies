@@ -228,19 +228,23 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div style="margin-left:4px;width:0;height:0;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:16px solid white"></div>
       </div>`;
 
-      const loadIframeInline = () => {
-        const iframe = document.createElement("iframe");
-        iframe.src = `https://www.youtube.com/embed/${vid}?autoplay=1&modestbranding=1&rel=0&playsinline=1`;
-        iframe.title = item.title || "YouTube video";
-        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-        iframe.setAttribute("allowfullscreen", "");
-        iframe.style.position = "absolute";
-        iframe.style.inset = "0";
-        iframe.style.width = "100%";
-        iframe.style.height = "100%";
-        wrapper.innerHTML = "";
-        wrapper.appendChild(iframe);
-      };
+    const loadIframeInline = () => {
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://www.youtube.com/embed/${vid}?autoplay=1&modestbranding=1&rel=0&playsinline=1`;
+      iframe.title = item.title || "YouTube video";
+      iframe.allow = "autoplay; encrypted-media; picture-in-picture; web-share";
+      iframe.setAttribute("allowfullscreen", "");
+      iframe.setAttribute("playsinline", "true");
+      iframe.style.position = "absolute";
+      iframe.style.top = "0";
+      iframe.style.left = "0";
+      iframe.style.width = "100%";
+      iframe.style.height = "100%";
+  
+      // Instead of replacing the whole wrapper, just swap the thumbnail safely
+      wrapper.replaceChild(iframe, thumb);
+    };
+
 
       // inline play on thumbnail click
       thumb.addEventListener("click", (ev) => { ev.stopPropagation(); loadIframeInline(); });
