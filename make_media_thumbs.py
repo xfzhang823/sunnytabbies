@@ -300,6 +300,10 @@ def process_dir(
         out_dir.mkdir(parents=True, exist_ok=True)
 
         if ext in IMAGE_EXTS:
+            # skip if filename ends with "-poster" before extension
+            if p.stem.endswith(("-poster", "-thumb")):
+                continue
+
             count_img += 1
             res = make_image_thumb(p, out_dir, img_size, force=force)
             if res:

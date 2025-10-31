@@ -71,6 +71,20 @@
   },
   {
     "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_biting_on_finger_2025_10_19-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_biting_on_finger_2025_10_19.JPEG",
+    "title": "Week 6: kitten biting on human finger",
+    "alt": "Kitten bite human finger to socialize"
+  },
+    {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_by_camera_tripod_2025_10_19-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_by_camera_tripod_2025_10_19.JPEG",
+    "title": "Week 6: kitten biting on human finger",
+    "alt": "Kitten bite human finger to socialize"
+  },
+  {
+    "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_chandler_pond_2025_10_26_1.2.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_chandler_pond_2025_10_26_1.2.1.jpg",
     "title": "Week 7: on top of carrier — Chandler Pond, Brighton",
@@ -96,5 +110,47 @@
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_walk_outside_2025_10_26-poster.jpg",
     "title": "Week 7: girl kitten walking outside — Chandler Pond",
     "alt": "Girl kitten follows the camera outside near Chandler Pond, Brighton"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_1_wt_vet_2025_10_27-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_1_wt_vet_2025_10_27.JPEG",
+    "title": "Week 7: girl kitten 1 with the vet",
+    "alt": "Girl kitten 1 held by the vet"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_2_wt_vet_2025_10_27-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_2_wt_vet_2025_10_27.JPEG",
+    "title": "Week 7: girl kitten 2 with the vet",
+    "alt": "Girl kitten 2 held by the vet"
+  },
+    {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_3_wt_vet_2025_10_27-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_3_wt_vet_2025_10_27.JPEG",
+    "title": "Week 7: girl kitten 3 with the vet",
+    "alt": "Girl kitten 3 held by the vet"
+  },
+  {
+    "type": "youtube",
+    "videoId": "6XvNqnpTPeo",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kittens_group_jitsu_on_black_foam_mats_2025_10_30-poster.jpg",
+    "title": "Week 7: kittens doing group jitsu on black foam/matts, 2025-10-30",
+    "alt": "Kittens wrestling with each other on black foams in bedroom"
+  },
+    {
+    "type": "youtube",
+    "videoId": "MHtvjZMbNv8",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kittens_in_hallway_2025_10_28-poster.jpg",
+    "title": "Week 7: Kittens in hallway the first time",
+    "alt": "The first time a couple of kittens seeing the hallway for the first time"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_sleeping_alone_2025_10_30-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_sleeping_alone_2025_10_30.jpg",
+    "title": "Week 7: kitten sleeping alone",
+    "alt": "Kiten sleep alone"
   }
 ]
