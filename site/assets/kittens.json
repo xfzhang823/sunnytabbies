@@ -183,9 +183,16 @@
   },
   {
     "type": "youtube",
-    "videoId": "6r3xG5Z3RsY",
+    "videoId": "GjEJrcbEENo",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_sibling_pairs_2025_10_29-poster.jpg",
     "title": "Week 7: Kitten sibling pairs, 2025-10-29",
     "alt": "Kitten sibling pairs hangout together, 2025-10-29"
+  },
+  {
+    "type": "youtube",
+    "videoId": "9VMgsovOQdA",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_goofing_off_2025_10_29-poster.jpg",
+    "title": "Week 7: Kitten goofing off, 2025-10-29",
+    "alt": "Kitten goofing off when exploring the living room, 2025-10-29"
   }
 ]
