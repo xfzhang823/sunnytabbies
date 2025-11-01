@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         ? prefs.outdoor_options.join(" ")
         : "";
       homePref.innerHTML = `
-        <strong>${prefs.environment || ""}</strong><br>
+        <strong>${prefs.ideal_environment || ""}</strong><br>
         ${outdoor}
       `;
     }
