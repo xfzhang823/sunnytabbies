@@ -8,19 +8,20 @@ document.addEventListener("DOMContentLoaded", async () => {
   renderAdoptionSummary(adopt);
 
   // pointer-coarseness flag (used for mobile-vs-desktop UX)
-  const IS_COARSE = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+  const IS_COARSE =
+    window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
 
   function renderAdoptionSummary(adopt) {
     if (!adopt) return;
     const { litter, status, policies, contact } = adopt;
 
     // Get elements
-    const banner       = document.querySelector(".adopt-banner");
+    const banner = document.querySelector(".adopt-banner");
     const availability = document.getElementById("adopt-availability");
-    const homePref     = document.getElementById("home-preference");   // optional slot
-    const rehoming     = document.getElementById("rehoming-copy");     // optional slot
-    const emailEl      = document.getElementById("adopt-email");
-    const prefaceEl    = document.getElementById("adopt-preface");
+    const homePref = document.getElementById("home-preference"); // optional slot
+    const rehoming = document.getElementById("rehoming-copy"); // optional slot
+    const emailEl = document.getElementById("adopt-email");
+    const prefaceEl = document.getElementById("adopt-preface");
 
     // Banner text
     const bannerText =
@@ -32,21 +33,29 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Availability panel (left)
     if (availability) {
       const prefs = policies.home_preferences || {};
-      const outdoor = Array.isArray(prefs.outdoor_options) ? prefs.outdoor_options : [];
-      const safety = Array.isArray(prefs.safety_notes) ? prefs.safety_notes : [];
+      const outdoor = Array.isArray(prefs.outdoor_options)
+        ? prefs.outdoor_options
+        : [];
+      const safety = Array.isArray(prefs.safety_notes)
+        ? prefs.safety_notes
+        : [];
 
-      const outdoorList = outdoor.map(o => `• ${o}`).join("<br>");
-      const safetyList  = safety.map(s => `• ${s}`).join("<br>");
+      const outdoorList = outdoor.map((o) => `• ${o}`).join("<br>");
+      const safetyList = safety.map((s) => `• ${s}`).join("<br>");
       const siblingLine = policies.sibling_adopting_together
         ? "<p class='subtle'>We’d love for siblings to be adopted together if possible.</p>"
         : "";
 
       availability.innerHTML = `
-        ${status.available} available now; visits by appointment in ${litter.location}.<br>
+        ${status.available} available now; visits by appointment in ${
+        litter.location
+      }.<br>
         Ready ${litter.ready_window}.
         <br><br>
         <strong>Ideal family:</strong> ${prefs.ideal_family || ""}<br>
-        <strong>Environment:</strong> ${prefs.environment || ""}<br><br>
+        <strong>Ideal environment:</strong> ${
+          prefs.ideal_environment || ""
+        }<br><br>
         ${outdoorList}<br>
         ${safetyList}
         <br><br>
@@ -58,7 +67,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Optional: split content into separate placeholders if you have them
     if (homePref) {
       const prefs = policies.home_preferences || {};
-      const outdoor = Array.isArray(prefs.outdoor_options) ? prefs.outdoor_options.join(" ") : "";
+      const outdoor = Array.isArray(prefs.outdoor_options)
+        ? prefs.outdoor_options.join(" ")
+        : "";
       homePref.innerHTML = `
         <strong>${prefs.environment || ""}</strong><br>
         ${outdoor}
@@ -67,13 +78,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (rehoming) {
       rehoming.textContent = `We’re not breeders—just rehoming our family cat’s litter${
-        policies.sibling_adopting_together ? " (reduced fee for sibling pairs)." : "."
+        policies.sibling_adopting_together
+          ? " (reduced fee for sibling pairs)."
+          : "."
       }`;
     }
 
     // Contact link + preface
     if (emailEl && contact?.email) {
-      emailEl.href = `mailto:${contact.email}?subject=${encodeURIComponent("Sunny Tabbies adoption inquiry")}`;
+      emailEl.href = `mailto:${contact.email}?subject=${encodeURIComponent(
+        "Sunny Tabbies adoption inquiry"
+      )}`;
     }
     if (prefaceEl && contact?.preface) {
       prefaceEl.textContent = contact.preface;
@@ -85,8 +100,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   // --- helpers: youtube detection/ID extraction ---------------------------
   const YT_HOSTS = ["youtube.com", "youtu.be"];
   function isYouTubeUrl(url = "") {
-    try { const u = new URL(url); return YT_HOSTS.some(h => u.hostname.includes(h)); }
-    catch { return false; }
+    try {
+      const u = new URL(url);
+      return YT_HOSTS.some((h) => u.hostname.includes(h));
+    } catch {
+      return false;
+    }
   }
   function getYouTubeIdFromUrl(url = "") {
     try {
@@ -95,27 +114,37 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (u.searchParams.get("v")) return u.searchParams.get("v");
       const m = u.pathname.match(/\/embed\/([a-zA-Z0-9_-]+)/);
       return m ? m[1] : null;
-    } catch { return null; }
+    } catch {
+      return null;
+    }
   }
   function getYouTubeId(item) {
     return item.videoId || (item.src && getYouTubeIdFromUrl(item.src)) || null;
   }
 
   // IntersectionObserver to lazy-attach video sources (mp4 only)
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting && e.target.tagName === "VIDEO" && !e.target.dataset.boot) {
-        attachVideoSources(e.target);
-        e.target.dataset.boot = "1";
-      }
-    });
-  }, { rootMargin: "200px" });
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (
+          e.isIntersecting &&
+          e.target.tagName === "VIDEO" &&
+          !e.target.dataset.boot
+        ) {
+          attachVideoSources(e.target);
+          e.target.dataset.boot = "1";
+        }
+      });
+    },
+    { rootMargin: "200px" }
+  );
 
   // --- small helper to add a corner "pop out" button ----------------------
   function addPopoutButton(containerEl, onClick) {
     // ensure container is positioned
     const style = containerEl.style;
-    if (!/relative|absolute|fixed/.test(style.position)) style.position = "relative";
+    if (!/relative|absolute|fixed/.test(style.position))
+      style.position = "relative";
 
     const btn = document.createElement("button");
     btn.type = "button";
@@ -123,7 +152,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     btn.style.position = "absolute";
     btn.style.top = "8px";
     btn.style.right = "8px";
-    btn.style.width = "44px";      // larger touch target
+    btn.style.width = "44px"; // larger touch target
     btn.style.height = "44px";
     btn.style.display = "grid";
     btn.style.placeItems = "center";
@@ -139,12 +168,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     btn.style.userSelect = "none";
     btn.style.webkitTapHighlightColor = "transparent";
     btn.textContent = "⤢";
-    btn.addEventListener("click", (e) => { e.stopPropagation(); onClick(); });
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      onClick();
+    });
     containerEl.appendChild(btn);
   }
 
   // ---- render cards -------------------------------------------------------
-  items.forEach(item => {
+  items.forEach((item) => {
     const card = document.createElement("figure");
     card.className = "card";
 
@@ -156,8 +188,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       const picture = document.createElement("picture");
 
       const usesSimpleSrc = !!(item.src || item.thumb);
-      const gridSrc = item.thumb || item.src;                 // small preview
-      const lightboxSrc = item.full || item.src || gridSrc;   // bigger for click
+      const gridSrc = item.thumb || item.src; // small preview
+      const lightboxSrc = item.full || item.src || gridSrc; // bigger for click
 
       if (!usesSimpleSrc && item.base) {
         const webp = document.createElement("source");
@@ -165,7 +197,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         webp.srcset = [
           `${item.base}-800.webp 800w`,
           `${item.base}-1600.webp 1600w`,
-          `${item.base}-2400.webp 2400w`
+          `${item.base}-2400.webp 2400w`,
         ].join(", ");
         webp.sizes = "(max-width: 600px) 96vw, (max-width: 1200px) 48vw, 32vw";
         picture.appendChild(webp);
@@ -186,7 +218,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         img.srcset = [
           `${item.base}-800.jpg 800w`,
           `${item.base}-1600.jpg 1600w`,
-          `${item.base}-2400.jpg 2400w`
+          `${item.base}-2400.jpg 2400w`,
         ].join(", ");
         img.sizes = "(max-width: 600px) 96vw, (max-width: 1200px) 48vw, 32vw";
         img.alt = item.alt || item.title || "Kitten photo";
@@ -196,11 +228,16 @@ document.addEventListener("DOMContentLoaded", async () => {
       picture.appendChild(img);
       mediaEl = picture;
       imgElForLightbox = img;
-
-    } else if (item.type === "youtube" || (item.type === "video" && isYouTubeUrl(item.src))) {
+    } else if (
+      item.type === "youtube" ||
+      (item.type === "video" && isYouTubeUrl(item.src))
+    ) {
       // ----- YOUTUBE PATH ----------------------------------------------------
       const vid = getYouTubeId(item);
-      if (!vid) { console.warn("YouTube item missing videoId/src", item); return; }
+      if (!vid) {
+        console.warn("YouTube item missing videoId/src", item);
+        return;
+      }
 
       const wrapper = document.createElement("div");
       wrapper.className = "video-wrapper";
@@ -211,7 +248,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       wrapper.style.borderRadius = "10px";
 
       const thumb = document.createElement("img");
-      thumb.src = item.poster || `https://img.youtube.com/vi/${vid}/hqdefault.jpg`;
+      thumb.src =
+        item.poster || `https://img.youtube.com/vi/${vid}/hqdefault.jpg`;
       thumb.alt = item.alt || item.title || "YouTube video";
       thumb.className = "media";
       thumb.style.cursor = "pointer";
@@ -235,7 +273,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const iframe = document.createElement("iframe");
         iframe.src = `https://www.youtube.com/embed/${vid}?autoplay=1&modestbranding=1&rel=0&playsinline=1`;
         iframe.title = item.title || "YouTube video";
-        iframe.allow = "autoplay; encrypted-media; picture-in-picture; web-share";
+        iframe.allow =
+          "autoplay; encrypted-media; picture-in-picture; web-share";
         iframe.setAttribute("allowfullscreen", "");
         iframe.setAttribute("playsinline", "true");
         iframe.style.position = "absolute";
@@ -251,7 +290,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         ev.preventDefault();
         ev.stopPropagation();
         if (IS_COARSE) {
-          openLightbox({ ...item, type: "youtube", src: item.src, videoId: vid });
+          openLightbox({
+            ...item,
+            type: "youtube",
+            src: item.src,
+            videoId: vid,
+          });
         } else {
           loadIframeInline();
         }
@@ -264,9 +308,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       // assemble
       wrapper.appendChild(thumb);
       wrapper.appendChild(playBtn);
-      addPopoutButton(wrapper, () => openLightbox({ ...item, type: "youtube", src: item.src, videoId: vid }));
+      addPopoutButton(wrapper, () =>
+        openLightbox({ ...item, type: "youtube", src: item.src, videoId: vid })
+      );
       mediaEl = wrapper;
-
     } else if (item.type === "video") {
       // ----- MP4 VIDEO PATH --------------------------------------------------
       const videoWrap = document.createElement("div");
@@ -281,7 +326,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (item.poster) v.poster = item.poster;
 
       if (item.base) {
-        v.dataset.base = item.base;   // e.g., /assets/media/clip-01
+        v.dataset.base = item.base; // e.g., /assets/media/clip-01
         io.observe(v);
       } else if (item.src) {
         const s = document.createElement("source");
@@ -294,7 +339,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       // pop-out button opens the same item in lightbox
       addPopoutButton(videoWrap, () => openLightbox(item, v));
       mediaEl = videoWrap;
-
     } else {
       console.warn("Unknown item.type, skipping:", item);
       return;
@@ -341,12 +385,17 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Lightbox overlay
   const lb = document.getElementById("lightbox");
   const lbClose = document.getElementById("lb-close");
-  lb.addEventListener("click", e => { if (e.target === lb || e.target === lbClose) closeLightbox(); });
-  document.addEventListener("keydown", e => { if (e.key === "Escape") closeLightbox(); });
+  lb.addEventListener("click", (e) => {
+    if (e.target === lb || e.target === lbClose) closeLightbox();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeLightbox();
+  });
 
   function openLightbox(item, el) {
     lb.classList.add("open");
-    lb.innerHTML = '<button id="lb-close" aria-label="Close" style="position:absolute;top:12px;right:14px">✕</button>';
+    lb.innerHTML =
+      '<button id="lb-close" aria-label="Close" style="position:absolute;top:12px;right:14px">✕</button>';
     lb.querySelector("#lb-close").addEventListener("click", closeLightbox);
 
     if (item.type === "image") {
@@ -363,13 +412,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       img.style.maxHeight = "90vh";
       img.src = fullUrl;
       lb.appendChild(img);
-
     } else if (item.type === "youtube" || isYouTubeUrl(item.src)) {
       const vid = getYouTubeId(item);
       const iframe = document.createElement("iframe");
       iframe.src = `https://www.youtube.com/embed/${vid}?autoplay=1&modestbranding=1&rel=0&playsinline=1`;
       iframe.title = item.title || "YouTube video";
-      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
       iframe.setAttribute("allowfullscreen", "");
       iframe.setAttribute("playsinline", "true"); // important for iOS inline
       iframe.style.width = "95vw";
@@ -377,10 +426,11 @@ document.addEventListener("DOMContentLoaded", async () => {
       iframe.style.height = "calc(95vw * 9 / 16)";
       iframe.style.maxHeight = "90vh";
       lb.appendChild(iframe);
-
     } else {
       const v = document.createElement("video");
-      v.controls = true; v.autoplay = true; v.playsInline = true;
+      v.controls = true;
+      v.autoplay = true;
+      v.playsInline = true;
       v.style.maxWidth = "95vw";
       v.style.maxHeight = "90vh";
 
@@ -403,5 +453,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
-  function closeLightbox(){ lb.classList.remove("open"); }
+  function closeLightbox() {
+    lb.classList.remove("open");
+  }
 });
