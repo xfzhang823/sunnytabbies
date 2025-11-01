@@ -14,7 +14,7 @@
   "policies": {
     "home_preferences": {
       "ideal_family": "Caring homes that can offer plenty of time, play, and companionship",
-      "ideal_environment": "Hybrid (mostly indoor but ways to explore the 'great outdoors",
+      "ideal_environment": "Hybrid (mostly indoor but with safe ways to explore the 'great outdoors')",
       "outdoor_options": [
         "Enclosed patios, catios, or fenced yards",
         "Supervised yard time or leash/harness walks",
@@ -33,4 +33,5 @@
     "preface": "Tell us about your home, other pets, and experience with pets."
   }
 }
+
 
