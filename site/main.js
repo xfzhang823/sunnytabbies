@@ -26,8 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Banner text
     const bannerText =
       `${litter.total} kittens • ${litter.boys} boys / ${litter.girls} girls • born ${litter.born_on} • ` +
-      `ready ${litter.ready_window} • ${litter.location} • ` +
-      `${status.available} available, ${status.reserved} reserved.`;
+      `ready ${litter.ready_window} • ${litter.location}`;
     if (banner) banner.textContent = bannerText;
 
     // Availability panel (left)

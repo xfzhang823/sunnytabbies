@@ -6,6 +6,7 @@ requires-python = ">=3.9"
 
 dependencies = [
     "black>=25.9.0",
+    "pandas>=2.3.3",
     "pillow",
     "pylance>=0.38.2",
     "pylint>=3.3.9",
