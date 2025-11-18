@@ -17,50 +17,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Get elements
     const banner = document.querySelector(".adopt-banner");
-    const availability = document.getElementById("adopt-availability");
     const homePref = document.getElementById("home-preference"); // optional slot
     const rehoming = document.getElementById("rehoming-copy"); // optional slot
     const emailEl = document.getElementById("adopt-email");
     const prefaceEl = document.getElementById("adopt-preface");
 
-    // Banner text
+    // Banner text (no available / reserved)
     const bannerText =
-      `${litter.total} kittens • ${litter.boys} boys / ${litter.girls} girls • born ${litter.born_on} • ` +
-      `ready ${litter.ready_window} • ${litter.location}`;
-    if (banner) banner.textContent = bannerText;
+      `${litter.total} kittens • ${litter.boys} boys / ${litter.girls} girls • ` +
+      `born ${litter.born_on} • ready ${litter.ready_window} • ${litter.location}`;
 
-    // Availability panel (left)
-    if (availability) {
-      const prefs = policies.home_preferences || {};
-      const outdoor = Array.isArray(prefs.outdoor_options)
-        ? prefs.outdoor_options
-        : [];
-      const safety = Array.isArray(prefs.safety_notes)
-        ? prefs.safety_notes
-        : [];
-
-      const outdoorList = outdoor.map((o) => `• ${o}`).join("<br>");
-      const safetyList = safety.map((s) => `• ${s}`).join("<br>");
-      const siblingLine = policies.sibling_adopting_together
-        ? "<p class='subtle'>We’d love for siblings to be adopted together if possible.</p>"
-        : "";
-
-      availability.innerHTML = `
-        ${status.available} available now; visits by appointment in ${
-        litter.location
-      }.<br>
-        Ready ${litter.ready_window}.
-        <br><br>
-        <strong>Ideal family:</strong> ${prefs.ideal_family || ""}<br>
-        <strong>Ideal environment:</strong> ${
-          prefs.ideal_environment || ""
-        }<br><br>
-        ${outdoorList}<br>
-        ${safetyList}
-        <br><br>
-        <em>${policies.not_breeders_note}</em>
-        ${siblingLine}
-      `;
+    if (banner) {
+      banner.textContent = bannerText;
     }
 
     // Optional: split content into separate placeholders if you have them
