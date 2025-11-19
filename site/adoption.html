@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunny Tabbies – Adoption Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <h1>Sunny Tabbies</h1>
+      <p class="intro">
+        More details about our kittens, what kind of homes we’re looking for,
+        and how the adoption process works.
+      </p>
+      <p>
+        <a href="index.html" class="subtle-link">← Back to kitten gallery</a>
+      </p>
+    </header>
+
+    <!-- Summary banner -->
+    <section class="fullbleed">
+      <div class="container">
+        <div
+          id="adopt-banner-details"
+          class="adopt-banner"
+          role="status"
+          aria-live="polite"
+        ></div>
+      </div>
+    </section>
+
+    <main class="container adopt-details">
+      <!-- Litter Info -->
+      <section aria-labelledby="litter-heading">
+        <h2 id="litter-heading">About this litter</h2>
+        <p id="litter-summary"></p>
+        <p id="status-summary" class="subtle"></p>
+      </section>
+
+      <!-- Home Preferences -->
+      <section aria-labelledby="home-heading">
+        <h2 id="home-heading">What kind of homes we’re hoping for</h2>
+
+        <div class="stack">
+          <div>
+            <h3>Family & daily life</h3>
+            <p id="home-ideal-family"></p>
+          </div>
+
+          <div>
+            <h3>Indoor / outdoor style</h3>
+            <p id="home-ideal-environment"></p>
+            <ul id="home-outdoor-options"></ul>
+            <p id="home-safety-notes" class="subtle"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rehoming -->
+      <section aria-labelledby="rehoming-heading">
+        <h2 id="rehoming-heading">Rehoming & fees</h2>
+        <p id="rehoming-copy"></p>
+        <p id="rehoming-fees" class="subtle"></p>
+      </section>
+
+      <!-- Process -->
+      <section aria-labelledby="process-heading">
+        <h2 id="process-heading">How the adoption process works</h2>
+        <ol id="process-steps">
+          <li>Start by emailing us a bit about you and your home.</li>
+          <li>
+            We’ll set up either an in-person visit or a quick video chat so you
+            can “meet” the kittens.
+          </li>
+          <li>
+            If it feels like a good fit on both sides, we’ll keep in touch with
+            updates, photos, and videos.
+          </li>
+          <li>
+            When they’re fully weaned, litter-trained, have received their first
+            FVRCP core vaccination, and are cleared by the vet, we’ll schedule
+            pickup and go over the final agreement.
+            <br />
+            <span class="subtle">
+              (The FVRCP vaccine protects kittens from three serious viral
+              illnesses: Feline Viral Rhinotracheitis, Calicivirus, and
+              Panleukopenia.)
+            </span>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Contact -->
+      <section aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Interested in adopting?</h2>
+        <p id="contact-preface"></p>
+        <p>
+          <a id="adopt-email" class="btn" href="#">Email us</a>
+        </p>
+
+        <p class="subtle" style="margin-top: 0.5rem">
+          — Xiao-Fei from Sunny Tabbies
+        </p>
+      </section>
+
+      <!-- Adoption Forms (Bottom Section) -->
+      <section aria-labelledby="forms-heading" style="margin-top: 3rem">
+        <h2 id="forms-heading">Adoption Forms</h2>
+
+        <p>
+          When you're ready to move forward, you can complete the forms online
+          or request the PDF versions if you prefer to fill them out by email.
+        </p>
+
+        <div class="stack" style="margin-top: 1rem; gap: 1.2rem">
+          <p>
+            <a
+              class="btn"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe2xnb1Lg3FnzoGLuAcJB9n6cvFh_euKatVAgHduGFMVDVcjA/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener"
+            >
+              📝 Adoption Application (Google Form)
+            </a>
+          </p>
+
+          <p>
+            <a
+              class="btn"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe7tCK8b43pS9iQC1JGlUhQsuH9a4_EjjnLYnGiG8SKswb2RA/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener"
+            >
+              🐾 Final Adoption Agreement (Google Form)
+            </a>
+          </p>
+        </div>
+
+        <p class="subtle" style="margin-top: 1rem">
+          Prefer PDFs instead? Just email us and we’ll send the printable
+          versions of both the application and the agreement.
+        </p>
+      </section>
+    </main>
+
+    <script src="adoption.js" defer></script>
+  </body>
+</html>
