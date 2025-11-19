@@ -3,252 +3,288 @@
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_4_oct_05_to_oct_11_crawling/kittens%20together%20photo_1.3.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_4_oct_05_to_oct_11_crawling/kittens%20together%20photo_1.3.1.jpg",
-    "title": "Week 4: first portrait",
-    "alt": "Kittens’ group portrait"
+    "title": "First portrait, 2025-10-05",
+    "alt": "Kittens’ group portrait",
+    "stage": "first_moves"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/2%20kittens%20pose%20after%20fighting_1.4.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/2%20kittens%20pose%20after%20fighting_1.4.1.jpg",
-    "title": "Week 5: two brothers right after wrestling",
-    "alt": "Two brothers posing right after wrestling"
+    "title": "Two brothers right after wrestling, 2025-10-12",
+    "alt": "Two brothers posing right after wrestling",
+    "stage": "first_moves"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20and%20finger_1.6.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20and%20finger_1.6.1.jpg",
-    "title": "Week 5: kitten touching finger",
-    "alt": "Kitten starts socializing with a human hand"
+    "title": "Kitten touching finger, 2025-10-12",
+    "alt": "Kitten starts socializing with a human hand",
+    "stage": "first_moves"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20bites%20carrier%20handle_1.4.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20bites%20carrier%20handle_1.4.1.jpg",
-    "title": "Week 5: kitten biting carrier handle",
-    "alt": "Kitten plays with a carrier handle"
+    "title": "Kitten biting carrier handle, 2025-10-12",
+    "alt": "Kitten plays with a carrier handle",
+    "stage": "first_moves"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20crossing%20leg%20look%20forward_2.1.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20crossing%20leg%20look%20forward_2.1.1.jpg",
-    "title": "Week 5: kitten looking forward",
-    "alt": "Kitten looks forward with legs crossed"
+    "title": "Kitten looking forward, 2025-10-12",
+    "alt": "Kitten looks forward with legs crossed",
+    "stage": "first_moves"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20play%20wt%20ball_2.2.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten%20play%20wt%20ball_2.2.1.jpg",
-    "title": "Week 5: kitten playing with ball",
-    "alt": "Kitten plays with a foam ball"
+    "title": "Kitten playing with ball, 2025-10-12",
+    "alt": "Kitten plays with a foam ball",
+    "stage": "first_moves"
   },
   {
     "type": "youtube",
     "videoId": "hdUNZY8vsJg",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten_in_wheel_2025_10_17-poster.jpg",
-    "title": "Week 5: kitten playing in wheel",
-    "alt": "Kitten tries an exercise wheel for the first time"
+    "title": "Kitten playing in wheel, 2025-10-17",
+    "alt": "Kitten tries an exercise wheel for the first time",
+    "stage": "first_moves"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20into%20camera%20with%20siblings_2.4.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20into%20camera%20with%20siblings_2.4.1.jpg",
-    "title": "Week 6: looking into camera on black foam",
-    "alt": "Kitten looks into the camera with brothers in the background"
+    "title": "Looking into camera on black foam, 2025-10-19",
+    "alt": "Kitten looks into the camera with brothers in the background",
+    "stage": "each_other"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20wile%20brothers%20sleeping_2.5.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten%20looking%20wile%20brothers%20sleeping_2.5.1.jpg",
-    "title": "Week 6: looking up while siblings sleep",
-    "alt": "Kitten looks at the camera while resting on sleeping siblings"
+    "title": "Looking up while siblings sleep, 2025-10-19",
+    "alt": "Kitten looks at the camera while resting on sleeping siblings",
+    "stage": "each_other"
   },
   {
     "type": "youtube",
     "videoId": "A4SEFQdXU6A",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kittens_tussling_brother_bdrm_on_black_foams_2025_10_19-poster.jpg",
-    "title": "Week 6: kittens wrestling and playing",
-    "alt": "Kittens play and wrestle each other in the bedroom"
+    "title": "Kittens wrestling and playing, 2025-10-19",
+    "alt": "Kittens play and wrestle each other in the bedroom",
+    "stage": "each_other"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_biting_on_finger_2025_10_19-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_biting_on_finger_2025_10_19.JPEG",
-    "title": "Week 6: kitten biting on human finger",
-    "alt": "Kitten bite human finger to socialize"
+    "title": "Kitten biting on human finger, 2025-10-19",
+    "alt": "Kitten bite human finger to socialize",
+    "stage": "each_other"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_by_camera_tripod_2025_10_19-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_by_camera_tripod_2025_10_19.JPEG",
-    "title": "Week 6: kitten biting on human finger",
-    "alt": "Kitten bite human finger to socialize"
+    "title": "Kitten biting on human finger, 2025-10-19",
+    "alt": "Kitten bite human finger to socialize",
+    "stage": "each_other"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_solo_portrait__2025_10_24_1.2.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_solo_portrait__2025_10_24_1.2.1.jpg",
-    "title": "Week 6: kitten solo portrait 2025-10-24",
-    "alt": "kitten solo portrait"
+    "title": "Kitten solo portrait, 2025-10-24",
+    "alt": "kitten solo portrait",
+    "stage": "each_other"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_solo_profile_on_black_foam__2025_10_24_1.4.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kitten_solo_profile_on_black_foam__2025_10_24_1.4.1.jpg",
-    "title": "Week 6: kittensolo profile on black foam 2025-10-24",
-    "alt": "kitten getting on foam looking forward 2025-10-24"
+    "title": "Kittensolo profile on black foam, 2025-10-24",
+    "alt": "kitten getting on foam looking forward 2025-10-24",
+    "stage": "each_other"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/two_sibling_kittens_wrestling__2025_10_24_1.4.2-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/two_sibling_kittens_wrestling__2025_10_24_1.4.2.jpg",
-    "title": "Week 6: two sibling kittens wrestling 2025-10-24",
-    "alt": "two sibling kittens wreste on blue rug"
+    "title": "Two sibling kittens wrestling, 2025-10-24",
+    "alt": "two sibling kittens wreste on blue rug",
+    "stage": "each_other"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/brother_kittens_on_black_foam_2025_10_24_1.1.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/brother_kittens_on_black_foam_2025_10_24_1.1.1.jpg",
-    "title": "Week 6: two brother kittens looking on black foam 2025-10-24",
-    "alt": "two brother kittens pose and look into into the camera on black foam 2025-10-24"
+    "title": "Two brother kittens looking on black foam, 2025-10-24",
+    "alt": "two brother kittens pose and look into into the camera on black foam 2025-10-24",
+    "stage": "each_other"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_chandler_pond_2025_10_26_1.2.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_chandler_pond_2025_10_26_1.2.1.jpg",
-    "title": "Week 7: on top of carrier — Chandler Pond, Brighton",
-    "alt": "Kitten looks pensively on top of the carrier (near Chandler Pond, Brighton)"
+    "title": "On top of carrier — Chandler Pond, Brighton, 2025-10-26",
+    "alt": "Kitten looks pensively on top of the carrier (near Chandler Pond, Brighton)",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_head_shot_chandler_pond_2025_10_26_1.2.1_1.1.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_on_carrier_looking_head_shot_chandler_pond_2025_10_26_1.2.1_1.1.1.jpg",
-    "title": "Week 7: looking into camera — Chandler Pond, Brighton",
-    "alt": "Kitten looks into the camera on top of the carrier (near Chandler Pond, Brighton)"
+    "title": "Looking into camera — Chandler Pond, Brighton, 2025-10-26",
+    "alt": "Kitten looks into the camera on top of the carrier (near Chandler Pond, Brighton)",
+    "stage": "big_big_world"
   },
   {
     "type": "youtube",
     "videoId": "EpqI8PyVP1g",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/boy_kitten_walk_outside_2025_10_26-poster.jpg",
-    "title": "Week 7: boy kitten walking outside — Chandler Pond",
-    "alt": "Boy kitten follows the camera outside near Chandler Pond, Brighton"
+    "title": "Boy kitten walking outside — Chandler Pond, 2025-10-26",
+    "alt": "Boy kitten follows the camera outside near Chandler Pond, Brighton",
+    "stage": "big_big_world"
   },
   {
     "type": "youtube",
     "videoId": "Axe7ovtP-Jw",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_walk_outside_2025_10_26-poster.jpg",
-    "title": "Week 7: girl kitten walking outside — Chandler Pond",
-    "alt": "Girl kitten follows the camera outside near Chandler Pond, Brighton"
+    "title": "Girl kitten walking outside — Chandler Pond, 2025-10-26",
+    "alt": "Girl kitten follows the camera outside near Chandler Pond, Brighton",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_1_wt_vet_2025_10_27-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_1_wt_vet_2025_10_27.JPEG",
-    "title": "Week 7: girl kitten 1 Dr. R from VCA animal hospital Newton Heights",
-    "alt": "Girl kitten 1 held by the vet"
+    "title": "Girl kitten 1 Dr. R from VCA animal hospital Newton Heights, 2025-10-27",
+    "alt": "Girl kitten 1 held by the vet",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_2_wt_vet_2025_10_27-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_2_wt_vet_2025_10_27.JPEG",
-    "title": "Week 7: girl kitten 2 with Dr. R from VCA animal hospital Newton Heights",
-    "alt": "Girl kitten 2 held by the vet"
+    "title": "Girl kitten 2 with Dr. R from VCA animal hospital Newton Heights, 2025-10-27",
+    "alt": "Girl kitten 2 held by the vet",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_3_wt_vet_2025_10_27-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_3_wt_vet_2025_10_27.JPEG",
-    "title": "Week 7: girl kitten 3 with Dr. R from VCA animal hospital Newton Heights",
-    "alt": "Girl kitten 3 held by the vet"
+    "title": "Girl kitten 3 with Dr. R from VCA animal hospital Newton Heights, 2025-10-27",
+    "alt": "Girl kitten 3 held by the vet",
+    "stage": "big_big_world"
   },
   {
     "type": "youtube",
     "videoId": "6XvNqnpTPeo",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kittens_group_jitsu_on_black_foam_mats_2025_10_30-poster.jpg",
-    "title": "Week 7: kittens doing group jitsu on black foam/matts, 2025-10-30",
-    "alt": "Kittens wrestling with each other on black foams in bedroom"
+    "title": "Kittens doing group jitsu on black foam/matts, 2025-10-30",
+    "alt": "Kittens wrestling with each other on black foams in bedroom",
+    "stage": "big_big_world"
   },
   {
     "type": "youtube",
     "videoId": "y0q9DqTuUUo",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kittens_in_hallway_2025_10_28-poster.jpg",
-    "title": "Week 7: Kittens in hallway the first time",
-    "alt": "The first time a couple of kittens seeing the hallway for the first time"
+    "title": "Kittens in hallway the first time, 2025-10-28",
+    "alt": "The first time a couple of kittens seeing the hallway for the first time",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_sleeping_alone_2025_10_30-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_sleeping_alone_2025_10_30.jpg",
-    "title": "Week 7: A kitten sleeping alone",
-    "alt": "Kitten sleep alone b/c her brothers/sisters were moved into the bedroom already"
+    "title": "A kitten sleeping alone, 2025-10-30",
+    "alt": "Kitten sleep alone b/c her brothers/sisters were moved into the bedroom already",
+    "stage": "big_big_world"
   },
   {
     "type": "youtube",
     "videoId": "GjEJrcbEENo",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_sibling_pairs_2025_10_29-poster.jpg",
-    "title": "Week 7: Kitten sibling pairs, 2025-10-29",
-    "alt": "Kitten sibling pairs hangout together, 2025-10-29"
+    "title": "Kitten sibling pairs hangout together, 2025-10-29",
+    "alt": "Kitten sibling pairs hangout together, 2025-10-29",
+    "stage": "big_big_world"
   },
   {
     "type": "youtube",
     "videoId": "9VMgsovOQdA",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_goofing_off_2025_10_29-poster.jpg",
-    "title": "Week 7: Kitten goofing off, 2025-10-29",
-    "alt": "Kitten goofing off when exploring the living room, 2025-10-29"
+    "title": "Kitten goofing off, 2025-10-29",
+    "alt": "Kitten goofing off when exploring the living room, 2025-10-29",
+    "stage": "big_big_world"
   },
   {
     "type": "video",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_in_hoody_2025_11_01-poster.jpg",
     "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_in_hoody_2025_11_01.mp4",
-    "title": "Week 7: Kitten in hoody 2025-11-01",
-    "alt": "Kitten in hoody on elevator 2025-11-01"
+    "title": "Kitten in hoody, 2025-11-01",
+    "alt": "Kitten in hoody on elevator 2025-11-01",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_closeup_in_2025_11_06_1.6.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_closeup_in_2025_11_06_1.6.1.jpg",
-    "title": "Week 8: close-up from the cat tree",
-    "alt": "Kitten peeking out from inside the cat tree in a close-up shot"
+    "title": "Close-up from the cat tree, 2025-11-06",
+    "alt": "Kitten peeking out from inside the cat tree in a close-up shot",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_lateral_2025_11_06_1.4.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_lateral_2025_11_06_1.4.1.jpg",
-    "title": "Week 8: sideways glance from the cat tree",
-    "alt": "Kitten looking sideways out of the cat tree opening"
+    "title": "Sideways glance from the cat tree, 2025-11-06",
+    "alt": "Kitten looking sideways out of the cat tree opening",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_lateral_2025_11_06_1.4.1.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_yawning_2025_11_06_1.7.1.jpg",
-    "title": "Week 8: yawning from the cat tree",
-    "alt": "Kitten yawning while resting inside the cat tree"
+    "title": "Yawning from the cat tree, 2025-11-06",
+    "alt": "Kitten yawning while resting inside the cat tree",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_zoomed_in_2025_11_06_1.5.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_zoomed_in_2025_11_06_1.5.1.jpg",
-    "title": "Week 8: zoomed-in peek from the cat tree",
-    "alt": "Close zoomed-in view of a kitten looking out of the cat tree"
+    "title": "Zoomed-in peek from the cat tree, 2025-11-06",
+    "alt": "Close zoomed-in view of a kitten looking out of the cat tree",
+    "stage": "big_big_world"
   },
   {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_on_leg_2025_11_04_1.3.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_on_leg_2025_11_04_1.3.1.jpg",
-    "title": "Week 8: resting on a leg",
-    "alt": "Kitten lying comfortably on a human leg"
+    "title": "Resting on a leg, 2025-11-04",
+    "alt": "Kitten lying comfortably on a human leg",
+    "stage": "big_big_world"
   },
   {
     "type": "youtube",
     "videoId": "W4MIlwiO2FU",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kittens_and_electric_skateboard_2025_11_05-poster.jpg",
-    "title": "Week 8: kittens curious about the electric skateboard",
-    "alt": "Kittens sniffing and exploring an electric skateboard on the floor"
+    "title": "Kittens curious about the electric skateboard, 2025-11-05",
+    "alt": "Kittens sniffing and exploring an electric skateboard on the floor",
+    "stage": "big_big_world"
   },
   {
     "type": "youtube",
     "videoId": "8Hxd9NOS5-w",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_9_nov_09_to_nov_15_personalities/girl_kitten_ouside_in_coat_2025_11_13-poster.jpg",
-    "title": "Week 9: Girl kitten snuggle in coat - outside near Chandler Pond, Brighton",
-    "alt": "Girl kitten snuggle in coat near Chandler Pond, Brighton"
+    "title": "Girl kitten snuggle in coat - outside near Chandler Pond, Brighton, 2025-11-13",
+    "alt": "Girl kitten snuggle in coat near Chandler Pond, Brighton",
+    "stage": "big_big_world"
   }
 ]

@@ -11,6 +11,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   const IS_COARSE =
     window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
 
+  // stage containers (match your HTML)
+  const stageContainers = {
+    first_moves: document.getElementById("stage-first_moves"),
+    each_other: document.getElementById("stage-each_other"),
+    big_big_world: document.getElementById("stage-big_big_world"),
+    ready_for_launch: document.getElementById("stage-ready_for_launch"),
+  };
+
   function renderAdoptionSummary(adopt) {
     if (!adopt) return;
     const { litter, status, policies, contact } = adopt;
@@ -61,8 +69,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       prefaceEl.textContent = contact.preface;
     }
   }
-
-  const gallery = document.getElementById("gallery");
 
   // --- helpers: youtube detection/ID extraction ---------------------------
   const YT_HOSTS = ["youtube.com", "youtu.be"];
@@ -334,7 +340,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
     // - Videos/YouTube: play inline by default; use the corner ⤢ button for popup
 
-    gallery.appendChild(card);
+    // Append to the correct stage container using the JSON `stage` field
+    const stageKey = item.stage || "big_big_world";
+    const container =
+      stageContainers[stageKey] || stageContainers.big_big_world;
+
+    if (container) {
+      container.appendChild(card);
+    } else {
+      console.warn("No container found for stage:", stageKey, item);
+    }
   });
 
   // ---- helpers ------------------------------------------------------------
