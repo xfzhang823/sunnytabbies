@@ -8,6 +8,14 @@
     "stage": "first_moves"
   },
   {
+    "type": "youtube",
+    "videoId": "Zqk5Wku8QEk",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_4_oct_05_to_oct_11_crawling/first_steps_vid_1_2025_10_10-poster.jpg",
+    "title": "Kitten learning how to walk 2025-10-10",
+    "alt": "Young kitten taking early steps and learning to walk",
+    "stage": "first_moves"
+  },
+  {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/2%20kittens%20pose%20after%20fighting_1.4.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/2%20kittens%20pose%20after%20fighting_1.4.1.jpg",

@@ -28,6 +28,9 @@ python make_media_thumbs.py media --thumb-size 700x700 --poster-width 1000
 5) Grab poster at 1.5 seconds for all videos
 python make_media_thumbs.py media --seek 1.5
 
+>>> Example Usage:
+python make_media_thumbs.py \
+  "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_4_oct_05_to_oct_11_crawling"
 """
 import os
 import argparse
