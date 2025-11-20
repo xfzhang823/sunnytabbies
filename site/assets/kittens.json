@@ -240,6 +240,14 @@
     "stage": "big_big_world"
   },
   {
+    "type": "youtube",
+    "videoId": "CtX3zLK5tAU",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kittens_playing_with_wand_vid_1_2025_11_4-poster.jpg",
+    "title": "Kittens play with wand 2025-11-04",
+    "alt": "Kittens batting at a feather wand toy during playtime, 2025-11-04",
+    "stage": "big_big_world"
+  },
+  {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_lateral_2025_11_06_1.4.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kitten_in_cat_tree_looking_out_lateral_2025_11_06_1.4.1.jpg",
