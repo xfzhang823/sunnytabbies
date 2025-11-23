@@ -84,13 +84,13 @@ function renderAdoptionDetails(adopt) {
     homeSafetyEl.textContent = homePrefs.safety_notes.join(" ");
   }
 
-  // --- Rehoming & fees ---
+  // --- Rehoming ---
   if (rehomingCopyEl) {
     // You previously had this logic inline; keep it consistent:
     const base =
       "We’re not breeders — just rehoming our family cat’s litter into caring homes.";
     const siblingNote = policies.sibling_adopting_together
-      ? " We offer a reduced fee if you adopt a pair of siblings."
+      ? " We prefer you adopt a pair of siblings but not required."
       : "";
     rehomingCopyEl.textContent = base + siblingNote;
   }
