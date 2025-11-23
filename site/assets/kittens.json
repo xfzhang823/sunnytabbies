@@ -288,6 +288,22 @@
     "stage": "big_big_world"
   },
   {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/two_kittens_sleeping_on_blanket_pic1_2025_11_08-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/two_kittens_sleeping_on_blanket_pic1_2025_11_08.jpg",
+    "title": "Two kittens sleeping on a blanket, 2025-11-08",
+    "alt": "Two kittens sleeping together on a soft blanket",
+    "stage": "big_big_world"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/two_kittens_in_backpack_carrier_2025_11_08-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/two_kittens_in_backpack_carrier_2025_11_08.jpg",
+    "title": "Two kittens inside the backpack carrier, 2025-11-08",
+    "alt": "Two kittens sitting together inside a backpack-style pet carrier",
+    "stage": "big_big_world"
+  },
+  {
     "type": "youtube",
     "videoId": "8Hxd9NOS5-w",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_9_nov_09_to_nov_15_personalities/girl_kitten_ouside_in_coat_2025_11_13-poster.jpg",
