@@ -39,10 +39,13 @@ For all current media, the following **week-to-stage mapping** is used:
 | `week_7_oct_26_to_nov_01_meet_outside`              | `big_big_world`   |
 | `week_8_nov_02_to_nov_08_personalities`             | `big_big_world`   |
 | `week_9_nov_09_to_nov_15_personalities`             | `big_big_world`   |
-| `week_10_nov_16 and beyond`                         | `ready for launch`|
+| `week_9_nov_09_to_nov_15_personalities`             | `big_big_world`   |
+| `week_10_nov_16_to_nov_22_personalities`            | `big_big_world`   |
+| `week_11_nov_23_to_nov_29_personalities`            | `big_big_world`   |
+| `week_12_nov_30_to_dec_06_ready_for_new_homes`      | `ready_for_launch`|
+| `week_13_dec_07_to_dec_13_ready_for_new_homes`      | `ready_for_launch`|
+| `week_14_dec_14_to_dec_20_ready_for_new_homes`      | `ready_for_launch`|
 
-> **Note:** Weeks 9 content is still part of **`big_big_world`** (per decision not to split weeks).  
-> Stage **`ready_for_launch`** will be used for Week 10–12 final images/videos.
 
 ## JSON Structure
 

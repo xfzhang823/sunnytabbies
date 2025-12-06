@@ -2,7 +2,11 @@
 file_scan_utils.py
 
 Example:
-python file_scan_utils.py --dir . --ext .mp4 --out video_files.csv
+python file_scan_utils.py \
+  --dir "/mnt/h/Nikon D7500 pics and videos" \
+  --out "/mnt/h/nikon_video_image_creation_date.csv" \
+  --ext ".mp4,.mov,.jpg"
+
 """
 
 from pathlib import Path
