@@ -390,5 +390,21 @@
     "title": "Kitten looking out of carrier on HS field, 2025-11-28",
     "alt": "A kitten peeking out from the carrier while outdoors at the HS field on November 28, 2025",
     "stage": "big_big_world"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_12_nov_30_to_dec_06_ready_for_new_homes/kitten_sleeping_2025_12_05_1.8.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_12_nov_30_to_dec_06_ready_for_new_homes/kitten_sleeping_2025_12_05_1.8.1.jpg",
+    "title": "Kitten sleeping on chair, 2025-12-05",
+    "alt": "Kitten sleeping on a chair",
+    "stage": "ready_for_launch"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_12_nov_30_to_dec_06_ready_for_new_homes/kitten_sleeping_closeup_2025_12_05_1.9.1-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_12_nov_30_to_dec_06_ready_for_new_homes/kitten_sleeping_closeup_2025_12_05_1.9.1.jpg",
+    "title": "Close-up of kitten sleeping on chair, 2025-12-05",
+    "alt": "Close-up of a kitten sleeping on a chair",
+    "stage": "ready_for_launch"
   }
 ]
