@@ -9,15 +9,16 @@
   },
   "policies": {
     "home_preferences": {
-      "ideal_family": "Caring homes that can offer plenty of time, play, and companionship",
-      "ideal_environment": "Hybrid (mostly indoor but with safe ways to explore the 'great outdoors')",
+      "ideal_family": "Homes where kittens get plenty of love, play, and companionship.",
+      "ideal_environment": "Mostly indoors, but they’ll enjoy safe outside adventures when possible.",
       "outdoor_options": [
-        "Enclosed patios, catios, or fenced yards",
-        "Supervised yard time or leash/harness walks",
-        "GPS or smart collars (Tractive GPS Tracker for Cats / Dogs, Whistle Go Explore, Pawfit 3, etc.)"
+        "A catio or enclosed patio if you have one",
+        "A backyard with supervision (or recall training), or short leash/harness outings",
+        "GPS or smart collars (Tractive, Whistle, Pawfit, etc.) (great for peace of mind when you are comfortable with them roaming",
+        "Or any other creative arrangement that feels right for both safety and joy"
       ],
       "safety_notes": [
-        "Sensible balance of safety, companionship, and healthy sense of adventure."
+        "Use common sense to find the sweet spot between keeping them safe and keeping them happy."
       ]
     },
     "visit_first": true,
