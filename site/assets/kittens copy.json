@@ -422,5 +422,13 @@
     "title": "Kittens playing with the ball track, video 1, 2025-12-05",
     "alt": "Kittens playing a circular track toy",
     "stage": "ready_for_launch"
+  },
+  {
+    "type": "youtube",
+    "videoId": "WWqo7YH2K5c",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_12_nov_30_to_dec_06_ready_for_new_homes/kittens_playing_with_ball_tray_vid_2_2025_12_05-poster.jpg",
+    "title": "More ball-track playtime, 2025-12-05",
+    "alt": "Kittens taking turns swatting the spinning balls in the track toy",
+    "stage": "ready_for_launch"
   }
 ]
