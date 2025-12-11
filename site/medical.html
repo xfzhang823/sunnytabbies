@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunny Tabbies – Vet Care & Medical Records</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Page-specific tweaks: single-column medical docs -->
+    <style>
+      /* Make the medical gallery a single centered column */
+      .gallery {
+        grid-template-columns: 1fr !important;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .gallery .card .media {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="container">
+      <h1>Vet Care & Medical Records</h1>
+      <p class="intro">
+        Below are redacted snapshots from their veterinary visits (personal
+        details removed). Full medical paperwork and other medical paperwork
+        (i.e., health certificates) will be provided to adopters directly.
+      </p>
+    </header>
+
+    <!-- Summary section -->
+    <section class="container">
+      <h2>Summary of Care</h2>
+      <ul>
+        <li>Wellness exams completed for the litter.</li>
+        <li>Deworming and core FVRCP vaccinations started.</li>
+        <li>Boosters scheduled as recommended by the vet.</li>
+      </ul>
+      <p class="subtle">
+        These images show only non-sensitive portions of the records.
+      </p>
+    </section>
+
+    <!-- Explanation of the 3-shot vaccine series -->
+    <section class="container">
+      <h2>Understanding the FVRCP Vaccine (the “3-shot series”)</h2>
+
+      <p>
+        Kittens receive a core vaccine called <strong>FVRCP</strong>, which
+        protects against three major feline viruses: rhinotracheitis,
+        calicivirus, and panleukopenia. Because their immune system is still
+        developing, the vaccine needs to be given as a
+        <strong>series of three shots</strong> to fully protect them.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Shot #1 – Starter dose (around 6–8 weeks old):</strong>
+          Begins building immunity. The kitten gets partial protection.
+        </li>
+        <li>
+          <strong>Shot #2 – Booster (around 10–12 weeks old):</strong>
+          Strengthens the immune response and fills in gaps from the first dose.
+        </li>
+        <li>
+          <strong
+            >Shot #3 – Final kitten booster (around 14–16 weeks old):</strong
+          >
+          Completes the series and provides longer-term protection into
+          adulthood.
+        </li>
+      </ul>
+
+      <p>
+        After completing all three shots, kittens usually receive an
+        <strong>annual booster</strong> as adults. Our kittens have already
+        started the FVRCP series, and your vet will help you finish any
+        remaining doses on schedule.
+      </p>
+
+      <p class="subtle">
+        The medical documents will tell you exactly which shots your kitten has
+        already received and which ones are still due so you can share that info
+        with your vet.
+      </p>
+
+      <p>
+        Kittens also receive a separate rabies vaccine, usually around 12–16
+        weeks of age (often at the same visit as the 3rd FVRCP booster). This
+        vaccine is required by law in Massachusetts and most other states, and
+        your vet will give it once the kitten is old enough. Most cat sitters,
+        pet hotels, and groomers may also require a current rabies certificate
+        before accepting a cat.
+      </p>
+    </section>
+
+    <section class="container">
+      <h3>What These Vaccines Actually Do</h3>
+
+      <p>
+        It’s important to know that vaccines are not magical amulets that stop
+        viruses entirely. Like us, animals naturally co-exist with germs and
+        viruses in their environment. The vaccine doesn’t prevent exposure — it
+        prevents serious illness.
+      </p>
+
+      <p>
+        This is also why mild issues like conjunctivitis or small
+        upper-respiratory symptoms can still happen in kittens, even with great
+        care and proper vaccination. These infections are extremely common and
+        not 100% avoidable. Most of the time, the kitten’s own immune system
+        kicks in and the symptoms clear up with rest and supportive care.
+      </p>
+
+      <p>
+        What the vaccine does is teach their immune system how to respond
+        quickly, so if they do get exposed to these common viruses, the symptoms
+        stay much milder, shorter, and far less dangerous than they would be
+        without vaccination.
+      </p>
+
+      <p>
+        This is why the full 3-shot series matters: each dose strengthens that
+        immune response until it’s mature enough to offer reliable protection.
+      </p>
+    </section>
+
+    <!-- Gallery heading -->
+    <section class="container" id="gallery-intro">
+      <h2>Vet Visit Snapshots</h2>
+      <p class="subtle">
+        Below are example documents from recent vet visits, with private details
+        removed. These are just for transparency — finalized adopters receive
+        the full medical records for their kitten.
+      </p>
+    </section>
+
+    <!-- Static gallery using existing styles, in a single column -->
+    <div class="fullbleed">
+      <div class="gallery">
+        <!-- Invoice: Follow-up vaccination -->
+        <figure class="card">
+          <img
+            class="media"
+            src="https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/medical/vac_2_invoice_example_image.png"
+            alt="Redacted invoice for follow-up vaccinations"
+          />
+          <figcaption class="caption">
+            Follow-up visit including booster vaccine and exam (private data
+            removed).
+          </figcaption>
+        </figure>
+
+        <!-- Invoice: First litter exam -->
+        <figure class="card">
+          <img
+            class="media"
+            src="https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/medical/litter_1st_exam_example_image.png"
+            alt="Redacted invoice for first litter exam"
+          />
+          <figcaption class="caption">
+            Initial litter exam, deworming, and early care for Yuumi’s kittens.
+          </figcaption>
+        </figure>
+
+        <!-- Invoice: Early vaccination visit -->
+        <figure class="card">
+          <img
+            class="media"
+            src="https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/medical/vac_1_invoice_example_image.png"
+            alt="Redacted invoice for first vaccination visit"
+          />
+          <figcaption class="caption">
+            First vaccination visit including wellness exam and FVRCP dose.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <footer class="container" style="margin: 40px auto 30px">
+      <p class="subtle">
+        Ready to meet them? <a href="/adoption">Return to the adoption page</a>.
+      </p>
+    </footer>
+  </body>
+</html>
