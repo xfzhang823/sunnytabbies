@@ -331,3 +331,24 @@ header h1 {
 .download-btn:hover {
   background-color: #d98d1b;
 }
+
+.info-box {
+  border-left: 4px solid #63aaff; /* soft blue accent */
+  background: #f5f9ff; /* very light blue background */
+  padding: 1rem 1.2rem;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.info-box h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  color: #2e6bcc; /* slightly darker blue */
+}
+
+#gps-note-box #gps-note {
+  font-style: italic;
+}

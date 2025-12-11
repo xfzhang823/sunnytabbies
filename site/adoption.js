@@ -75,13 +75,19 @@ function renderAdoptionDetails(adopt) {
     homeOutdoorListEl.innerHTML = "";
     homePrefs.outdoor_options.forEach((opt) => {
       const li = document.createElement("li");
-      li.textContent = opt;
+      li.innerHTML = opt;
       homeOutdoorListEl.appendChild(li);
     });
   }
 
   if (homeSafetyEl && Array.isArray(homePrefs.safety_notes)) {
     homeSafetyEl.textContent = homePrefs.safety_notes.join(" ");
+  }
+
+  // --- GPS note ---
+  const gpsNoteEl = document.getElementById("gps-note");
+  if (gpsNoteEl && Array.isArray(homePrefs.gps_note)) {
+    gpsNoteEl.innerHTML = homePrefs.gps_note.join("<br><br>");
   }
 
   // --- Rehoming ---

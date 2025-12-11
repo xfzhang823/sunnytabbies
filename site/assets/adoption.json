@@ -14,12 +14,26 @@
       "outdoor_options": [
         "A catio or enclosed patio if you have one",
         "A backyard with supervision (or recall training), or short leash/harness outings",
-        "GPS or smart collars (<a href=\"https://tractive.com\" target=\"_blank\" rel=\"noopener noreferrer\">Tractive</a>, <a href=\"https://www.whistle.com\" target=\"_blank\" rel=\"noopener noreferrer\">Whistle</a>, <a href=\"https://www.pawfit.com\" target=\"_blank\" rel=\"noopener noreferrer\">Pawfit</a>) — great for peace of mind when you are comfortable with them roaming",
+        "GPS or smart collars (<a href=\"https://tractive.com\" target=\"_blank\" rel=\"noopener noreferrer\">Tractive</a>, <a href=\"https://www.pawfit.com\" target=\"_blank\" rel=\"noopener noreferrer\">Pawfit</a>) — great for peace of mind when you are comfortable with them roaming",
         "Or any other creative arrangement that feels right for both safety and joy"
       ],
       "safety_notes": [
         "Use common sense to find the sweet spot between keeping them safe and keeping them happy."
-      ]
+      ],
+
+    "gps_note": [
+      "Fun fact: A real GPS tracker needs both satellite signals and a cellular data connection.",
+      "A GPS tracker 'listens' to satellites to know where it is. It usually needs signals from 3–4 satellites — a satellite only tells you how far away you are, not the direction. If you draw three circles on paper, the point where they overlap is your exact location.",
+      "The tracker also uses internal motion sensors (like a phone’s accelerometer) to estimate speed and direction.",
+      "But the tracker still needs a cell network to send that location to your phone. If either signal is weak — poor satellite line-of-sight or poor cellular coverage — the tracker won’t update.",
+      "GPS satellite signals themselves are free to use (maintained by the U.S. government), but the cellular networks are not.",
+      "Trackers send only tiny amounts of data, but companies like Tractive still need to pay Verizon, AT&T, or T-Mobile for that cellular access. That's why there's a small monthly fee.",
+      "This leads to a common confusion: people assume that because Bluetooth tags or AirTags can help find things, they should also work for tracking pets. Bluetooth only works at short range when a phone is physically nearby. It cannot track long distances or follow a moving animal.",
+      "Another common confusion is that 'GPS is free, so why am I paying monthly?' GPS only tells the tracker where it is — the subscription covers the cellular data needed to send that location to your phone in real time.",
+      "An AirTag is basically just a beacon. It doesn't know where it is at all. If your phone (or someone else’s iPhone) gets close enough, the iPhone does the smart work: estimating direction and distance, then placing it on the map.",
+      "A GPS tracker is a navigation device. It actually knows where it is, where it's going, and sends live updates directly to your phone. AirTags rely on nearby iPhones; GPS trackers rely on satellites and cell networks."
+    ]
+
     },
     "visit_first": true,
     "sibling_adopting_together": true,
