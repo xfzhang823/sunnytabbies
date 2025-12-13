@@ -352,3 +352,73 @@ header h1 {
 #gps-note-box #gps-note {
   font-style: italic;
 }
+
+.info-section {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px 18px;
+  margin: 18px auto;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.table-wrap.compact {
+  max-width: 720px; /* prevents full-page width */
+  margin: 16px auto 22px; /* centers it */
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid #ddd; /* outer border */
+  border-radius: 10px;
+  overflow: hidden; /* keeps rounded corners clean */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #e0e0e0; /* cell borders */
+}
+
+.compare-table th {
+  background: #f7f7f7;
+  font-weight: 600;
+}
+
+.compare-table td:first-child {
+  font-weight: 500;
+  width: 40%;
+}
+
+.compare-table th:nth-child(2),
+.compare-table th:nth-child(3),
+.compare-table td:nth-child(2),
+.compare-table td:nth-child(3) {
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Mobile tweak */
+@media (max-width: 600px) {
+  .table-wrap.compact {
+    max-width: 100%;
+  }
+
+  .compare-table th,
+  .compare-table td {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}
+
+.centered {
+  text-align: center;
+}
