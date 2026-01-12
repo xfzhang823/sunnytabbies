@@ -341,9 +341,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     // - Videos/YouTube: play inline by default; use the corner ⤢ button for popup
 
     // Append to the correct stage container using the JSON `stage` field
-    const stageKey = item.stage || "big_big_world";
+    const stageKey = item.stage || "ready_for_launch";
     const container =
-      stageContainers[stageKey] || stageContainers.big_big_world;
+      stageContainers[stageKey] || stageContainers.ready_for_launch;
 
     if (container) {
       container.appendChild(card);

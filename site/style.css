@@ -256,11 +256,27 @@ video.media {
   transform: translateY(-1px);
 }
 
-/* Gallery heading alignment */
-#gallery-intro {
-  text-align: center;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+/* Gallery intro (title + note) */
+.gallery-intro {
+  text-align: left;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Large gallery title */
+.gallery-intro .gallery-title {
+  font-size: 2.6rem; /* clearly larger than stage titles */
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.25rem 0; /* no left margin needed */
+  color: #9b7a5a; /* soft, warm tone */
+}
+
+/* Supporting note */
+.gallery-intro .gallery-note {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #8a8a8a;
 }
 
 #gallery-intro h2 {
