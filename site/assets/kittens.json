@@ -1,5 +1,53 @@
 [
   {
+    "type": "youtube",
+    "videoId": "RKyCLWfLGqg",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_attack_tripod_2026_01_12-poster.jpg",
+    "title": "Kitten playfully attacking the tripod, 2026-01-12",
+    "alt": "Kitten playfully attacking a camera tripod indoors, 2026-01-12",
+    "stage": "ready_for_launch"
+  },
+  {
+    "type": "youtube",
+    "videoId": "hIVfuKHnp8s",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_on_scratch_pole_2026_01_11-poster.jpg",
+    "title": "Kitten climbing and perching on the scratch post, 2026-01-11",
+    "alt": "Kitten climbing up a tall scratch post and sitting on top while playing with a teaser, 2026-01-11",
+    "stage": "ready_for_launch"
+  },
+  {
+    "type": "youtube",
+    "videoId": "ZkdcErtX4Ds",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11-poster.jpg",
+    "title": "First time in the woods — bold explorer and cautious observer, 2026-01-11",
+    "alt": "Two kittens outdoors for the first time in the woods; one steps out of the carrier confidently while the other stays cautious at first, 2026-01-11",
+    "stage": "ready_for_launch"
+  },
+  {
+    "type": "youtube",
+    "videoId": "4_NhU4MfuYc",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11-poster.jpg",
+    "title": "First time in the woods — good behavior vs a little trouble, 2026-01-11",
+    "alt": "Two kittens preparing to leave the woods; one stays calmly in the carrier while the other escapes and runs off briefly, 2026-01-11",
+    "stage": "ready_for_launch"
+  },
+  {
+    "type": "youtube",
+    "videoId": "UCTL60TkoW8",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11-poster.jpg",
+    "title": "First time in the woods — listening to birds, 2026-01-11",
+    "alt": "Kittens in the woods pausing to listen to birds chirping, appearing alert and curious, 2026-01-11",
+    "stage": "ready_for_launch"
+  },
+  {
+    "type": "youtube",
+    "videoId": "zfuSIH7Mnrc",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_in_car_2026_01_11-poster.jpg",
+    "title": "Kittens exploring a parked car, climbing in and out, 2026-01-11",
+    "alt": "Two kittens exploring a parked car with the door open, climbing in and out curiously, 2026-01-11",
+    "stage": "ready_for_launch"
+  },
+  {
     "type": "image",
     "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_17_jan_04_to_jan_10_ready_for_new_homes/kitten_sitting_2036_01_09_1.17.1-thumb.jpg",
     "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_17_jan_04_to_jan_10_ready_for_new_homes/kitten_sitting_2036_01_09_1.17.1.jpg",

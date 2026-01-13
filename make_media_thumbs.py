@@ -31,6 +31,9 @@ python make_media_thumbs.py media --seek 1.5
 >>> Example Usage:
 python make_media_thumbs.py \
   "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_4_oct_05_to_oct_11_crawling"
+
+python make_media_thumbs.py \
+  "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes"
 """
 import os
 import argparse
