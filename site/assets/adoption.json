@@ -4,7 +4,7 @@
     "total": 6,
     "boys": 3,
     "girls": 3,
-    "ready_window": "Early December",
+    "ready_window": "December",
     "location": "Brookline, MA"
   },
   "policies": {
@@ -13,12 +13,13 @@
       "ideal_environment": "Mostly indoors, but they’ll enjoy safe outside adventures when possible.",
       "outdoor_options": [
         "A catio or enclosed patio if you have one",
-        "A backyard with supervision (or recall training), or short leash/harness outings",
+        "A backyard with supervision (or recall training)",
+        "Leash/harness walks/outings from time to time",
         "GPS or smart collars (<a href=\"https://tractive.com\" target=\"_blank\" rel=\"noopener noreferrer\">Tractive</a>, <a href=\"https://www.pawfit.com\" target=\"_blank\" rel=\"noopener noreferrer\">Pawfit</a>) — great for peace of mind when you are comfortable with them roaming",
         "Or any other creative arrangement that feels right for both safety and joy"
       ],
       "safety_notes": [
-        "Use common sense to find the sweet spot between keeping them safe and keeping them happy."
+        "Use common sense, keep an open mind, and find a balance between safety, their happiness, and your own lifestyle. That’s all we hope for."
       ],
 
     "gps_note": [

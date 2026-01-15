@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   function renderAdoptionSummary(adopt) {
     if (!adopt) return;
-    const { litter, status, policies, contact } = adopt;
+    const { litter, policies, contact } = adopt;
 
     // Get elements
     const banner = document.querySelector(".adopt-banner");
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Optional: split content into separate placeholders if you have them
     if (homePref) {
-      const prefs = policies.home_preferences || {};
+      const prefs = policies?.home_preferences || {};
       const outdoor = Array.isArray(prefs.outdoor_options)
         ? prefs.outdoor_options.join(" ")
         : "";
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (rehoming) {
       rehoming.textContent = `We’re not breeders—just rehoming our family cat’s litter${
-        policies.sibling_adopting_together
+        policies?.sibling_adopting_together
           ? " (reduced fee for sibling pairs)."
           : "."
       }`;
@@ -352,10 +352,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   });
 
+  // ---- build stage jump nav (AFTER cards/stages are on page) -------------
+  buildStageNav();
+
   // ---- helpers ------------------------------------------------------------
   function attachVideoSources(video) {
     const base = video.dataset.base;
-    [["1080"], ["720"], ["480"]].forEach(([w]) => {
+    ["1080", "720", "480"].forEach((w) => {
       const s = document.createElement("source");
       s.src = `${base}-${w}.mp4`;
       s.type = "video/mp4";
@@ -366,9 +369,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Lightbox overlay
   const lb = document.getElementById("lightbox");
-  const lbClose = document.getElementById("lb-close");
   lb.addEventListener("click", (e) => {
-    if (e.target === lb || e.target === lbClose) closeLightbox();
+    // close if clicking backdrop or the close button (which is recreated dynamically)
+    if (e.target === lb || e.target?.id === "lb-close") closeLightbox();
   });
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closeLightbox();
@@ -403,10 +406,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
       iframe.setAttribute("allowfullscreen", "");
       iframe.setAttribute("playsinline", "true"); // important for iOS inline
-      iframe.style.width = "95vw";
-      iframe.style.maxWidth = "1200px";
-      iframe.style.height = "calc(95vw * 9 / 16)";
-      iframe.style.maxHeight = "90vh";
+      Object.assign(iframe.style, {
+        width: "95vw",
+        maxWidth: "1200px",
+        height: "calc(95vw * 9 / 16)",
+        maxHeight: "90vh",
+      });
       lb.appendChild(iframe);
     } else {
       const v = document.createElement("video");
@@ -417,7 +422,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       v.style.maxHeight = "90vh";
 
       if (item.base) {
-        [["1080"], ["720"], ["480"]].forEach(([w]) => {
+        ["1080", "720", "480"].forEach((w) => {
           const s = document.createElement("source");
           s.src = `${item.base}-${w}.mp4`;
           s.type = "video/mp4";
@@ -437,5 +442,97 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   function closeLightbox() {
     lb.classList.remove("open");
+    lb.innerHTML = ""; // optional: ensures iframe/video stops
   }
 });
+
+// -------------------------------------------------------------------------
+// Stage jump nav (YouTube-style horizontal tabs)
+// -------------------------------------------------------------------------
+function buildStageNav() {
+  const mount = document.getElementById("stage-nav-inner");
+  if (!mount) return;
+
+  const stageSections = Array.from(
+    document.querySelectorAll("section.gallery-stage[data-stage]")
+  );
+  if (!stageSections.length) return;
+
+  const nav = document.createElement("div");
+  nav.className = "stage-nav";
+  nav.setAttribute("role", "tablist");
+  nav.setAttribute("aria-label", "Jump to stage");
+
+  stageSections.forEach((sec) => {
+    const stageKey = (sec.getAttribute("data-stage") || "").trim();
+    if (!stageKey) return;
+
+    // ✅ Use the existing, unique grid id from your HTML: stage-first_moves, etc.
+    const gridId = `stage-${stageKey}`;
+    const gridEl = document.getElementById(gridId);
+
+    // If the grid isn't found for some reason, fall back to the section itself
+    const targetEl = gridEl || sec;
+
+    const h2 = sec.querySelector("h2");
+    const label = (h2?.textContent || stageKey || "Stage").trim();
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "stage-tab";
+    btn.textContent = label;
+    btn.dataset.target = targetEl.id || ""; // might be empty if section has no id
+    btn.setAttribute("role", "tab");
+
+    btn.addEventListener("click", () => {
+      // Prefer scrolling the *section* so the header is visible
+      const toScroll =
+        (gridEl && gridEl.closest("section.gallery-stage")) || sec;
+
+      toScroll.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    nav.appendChild(btn);
+  });
+
+  mount.innerHTML = "";
+  mount.appendChild(nav);
+
+  // Optional highlight helper (safe if missing)
+  if (typeof enableActiveStageHighlight === "function") {
+    enableActiveStageHighlight(nav, stageSections);
+  }
+}
+
+function enableActiveStageHighlight(navEl, stageSections) {
+  const tabs = Array.from(navEl.querySelectorAll(".stage-tab"));
+  const tabById = new Map(tabs.map((t) => [t.dataset.target, t]));
+
+  function setActive(id) {
+    tabs.forEach((t) => t.setAttribute("aria-current", "false"));
+    const active = tabById.get(id);
+    if (!active) return;
+    active.setAttribute("aria-current", "true");
+    active.scrollIntoView({
+      behavior: "smooth",
+      inline: "center",
+      block: "nearest",
+    });
+  }
+
+  const io = new IntersectionObserver(
+    (entries) => {
+      const visible = entries
+        .filter((e) => e.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+      if (visible?.target?.id) setActive(visible.target.id);
+    },
+    {
+      rootMargin: "-20% 0px -70% 0px",
+      threshold: 0.01,
+    }
+  );
+
+  stageSections.forEach((sec) => io.observe(sec));
+  if (stageSections[0]?.id) setActive(stageSections[0].id);
+}

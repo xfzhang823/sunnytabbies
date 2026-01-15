@@ -295,9 +295,14 @@ section.container {
 }
 
 /* Prevent rare horizontal scroll from full-bleed bands */
-html,
+/* Prevent rare horizontal scroll without breaking sticky */
+/* clip -> Prevent overflow, but do NOT create a scrolling context. */
+html {
+  overflow-x: clip; /* better than hidden for sticky */
+}
+
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* Site title */
@@ -438,3 +443,102 @@ header h1 {
 .centered {
   text-align: center;
 }
+
+/* --- Stage jump nav (YouTube-style horizontal tabs) --- */
+.stage-nav {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* smooth iOS swipe */
+  scrollbar-width: none; /* Firefox: hide scrollbar */
+  padding: 8px 4px;
+  margin: 6px 0 18px;
+}
+
+.stage-nav::-webkit-scrollbar {
+  display: none; /* Chrome/Safari: hide scrollbar */
+}
+
+.stage-tab {
+  flex: 0 0 auto; /* single row, no wrapping */
+  border-radius: 999px;
+  padding: 10px 16px; /* slightly larger = confident */
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+
+  /* visual */
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  color: #5a4633; /* warm brown */
+  box-shadow: none;
+
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease,
+    transform 0.15s ease;
+}
+
+/* Hover (desktop only) */
+@media (hover: hover) {
+  .stage-tab:hover {
+    background: #fff1dc; /* warm cream highlight */
+    border-color: rgba(0, 0, 0, 0.28);
+    transform: translateY(-1px);
+  }
+}
+
+/* Active / current stage */
+.stage-tab[aria-current="true"] {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  box-shadow: 0 6px 18px rgba(224, 122, 31, 0.35);
+}
+
+.gallery-stage {
+  scroll-margin-top: 90px; /* tweak if your sticky bar height changes */
+}
+
+/* Sticky wrapper for stage navigation */
+/* #stage-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--bg, #fff);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+} */
+
+/* Full-width sticky wrapper */
+.stage-nav-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /*background: var(--bg, #fff);*/
+  background: #fff6ea; /* slightly warmer than page bg */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  /* helps avoid sticky weirdness with margins */
+  margin: 0;
+}
+
+/* Inner container should NOT have vertical margins (common culprit from .container) */
+#stage-nav-inner {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* temp disable hidden to trouble shoot overflow issue
+/* html,
+body,
+.container {
+  overflow: visible !important;
+} */
