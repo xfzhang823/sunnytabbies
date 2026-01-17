@@ -288,5 +288,112 @@ made sticky work, confirming overflow context was the culprit.
 * No reactive framework
 * No backend changes
 
+---
+
+# AI Video Description Pipeline
+
+This project uses an AI-assisted pipeline to generate, curate, and publish video descriptions for the SunnyTabbies media gallery in a **controlled, human-in-the-loop** way.
+
+## Overview
+
+The system separates **raw AI analysis** from **site-ready content**, making it safe to iterate on prompts, regenerate descriptions, and manually curate stories without accidental data loss.
+
+The pipeline has three clear layers:
+
+1. **Video Analysis (AI-generated)**
+2. **Curated Story Layer (human-editable)**
+3. **Published Media Manifest (`kittens.json`)**
+
+---
+
+## Key Files
+
+- **`video_analysis_results.by_asset_key.json`**  
+  AI-generated analysis, normalized by `asset_key`.  
+  Acts as a *draft / staging area*.
+
+- **`kittens.json`**  
+  The website’s media manifest.  
+  This is the *published source of truth*.
+
+- **`merge_content_with_analysis.py`**  
+  A small utility module that merges analysis into `kittens.json`.
+
+---
+
+## Asset Key Normalization
+
+Every video is identified by an `asset_key` derived from the filename (e.g. `boy_kitten_montage_2025_12_13`).
+
+This allows:
+- deterministic joins
+- idempotent re-runs
+- zero manual copy-paste
+
+---
+
+## Story vs Analysis (Important Distinction)
+
+Each analyzed video may contain:
+
+- `analysis.main_story`  
+  Raw or semi-raw AI description (descriptive, factual)
+
+- `story`  
+  Curated, human-facing narrative (emotional, editorial)
+
+**Rule of precedence:**
+
+1. `story` (preferred, authoritative)
+2. `analysis.main_story` (fallback only)
+
+The website always consumes `story`.
+
+---
+
+## Merge Behavior
+
+The merge utility supports two modes:
+
+### Safe Mode (default)
+```python
+overwrite_existing = False
+````
+
+* Existing `story` in `kittens.json` is never overwritten
+* Missing stories are filled from analysis
+* Safe to re-run indefinitely
+
+### Publish / Regenerate Mode
+
+```python
+overwrite_existing = True
+```
+
+* `story` from the analysis file overwrites `kittens.json`
+* Used intentionally to promote edited drafts
+* Destructive by design (explicit opt-in)
+
+---
+
+## Recommended Workflow
+
+1. Run AI video analysis
+2. Review / edit `story` in the analysis file
+3. Merge with `overwrite_existing=True` to publish
+4. Make small tweaks directly in `kittens.json` if needed
+5. Future merges default to `overwrite_existing=False` to protect edits
+
+---
+
+## Design Philosophy
+
+* Non-destructive by default
+* Deterministic joins via `asset_key`
+* Clear separation between AI output and human authorship
+* Versionable, diff-friendly JSON workflows
+
+This mirrors professional media CMS and content-ingestion pipelines—just adapted for a personal project.
+
 ```
 ```
