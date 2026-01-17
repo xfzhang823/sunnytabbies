@@ -377,6 +377,27 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (e.key === "Escape") closeLightbox();
   });
 
+  function renderLightboxText(item) {
+    if (!item.story && !item.title) return null;
+
+    const wrap = document.createElement("div");
+    wrap.className = "lightbox-text";
+
+    if (item.title) {
+      const h3 = document.createElement("h3");
+      h3.textContent = item.title;
+      wrap.appendChild(h3);
+    }
+
+    if (item.story) {
+      const p = document.createElement("p");
+      p.textContent = item.story;
+      wrap.appendChild(p);
+    }
+
+    return wrap;
+  }
+
   function openLightbox(item, el) {
     lb.classList.add("open");
     lb.innerHTML =
@@ -437,6 +458,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       if (item.poster) v.poster = item.poster;
       lb.appendChild(v);
+    }
+
+    // ✅ ADD story if exists
+    const textBlock = renderLightboxText(item);
+    if (textBlock) {
+      lb.appendChild(textBlock);
     }
   }
 

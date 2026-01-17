@@ -6,8 +6,11 @@ requires-python = ">=3.9"
 
 dependencies = [
     "black>=25.9.0",
+    "google-genai>=1.47.0",
     "pandas>=2.3.3",
     "pillow",
+    "pydantic>=2.12.5",
     "pylance>=0.38.2",
     "pylint>=3.3.9",
+    "python-dotenv>=1.2.1",
 ]

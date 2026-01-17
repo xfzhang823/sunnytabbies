@@ -1,0 +1,389 @@
+{
+  "by_asset_key": {
+    "kittens_in_car_2026_01_11": {
+      "asset_key": "kittens_in_car_2026_01_11",
+      "story": "Two curious ginger kittens are seen exploring the inside of a car, hopping around the front seats with playful energy. One of the kittens, wearing a small blue device on its collar, stands confidently on the edge of the seat, peering out through the open door at the world outside.",
+      "details": [
+        "Orange tabby fur",
+        "Blue collar accessory",
+        "Black car interior",
+        "White vehicle"
+      ],
+      "analysis": {
+        "status": "multiple_subjects",
+        "main_story": "Two curious ginger kittens are seen exploring the inside of a car, hopping around the front seats with playful energy. One of the kittens, wearing a small blue device on its collar, stands confidently on the edge of the seat, peering out through the open door at the world outside.",
+        "kitten_details": [
+          "Orange tabby fur",
+          "Blue collar accessory",
+          "Black car interior",
+          "White vehicle"
+        ]
+      },
+      "meta": {
+        "status": "multiple_subjects",
+        "model_id": "gemini-3-flash-preview",
+        "timestamp": "Fri Jan 16 15:33:38 2026",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/ls8dmd2yreb6",
+        "original_filename": "kittens_in_car_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_in_car_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kittens_in_car_2026_01_11.mp4"
+      },
+      "raw": {
+        "original_filename": "kittens_in_car_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_in_car_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kittens_in_car_2026_01_11.mp4",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/ls8dmd2yreb6",
+        "timestamp": "Fri Jan 16 15:33:38 2026",
+        "model_id": "gemini-3-flash-preview",
+        "analysis": {
+          "status": "multiple_subjects",
+          "main_story": "Two curious ginger kittens are seen exploring the inside of a car, hopping around the front seats with playful energy. One of the kittens, wearing a small blue device on its collar, stands confidently on the edge of the seat, peering out through the open door at the world outside.",
+          "kitten_details": [
+            "Orange tabby fur",
+            "Blue collar accessory",
+            "Black car interior",
+            "White vehicle"
+          ]
+        }
+      }
+    },
+    "kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11": {
+      "asset_key": "kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11",
+      "story": "Two ginger kittens explore the autumnal forest from their cozy backpack carrier. One brave kitten steps out to sniff the dry leaves and climb a branch before heading back inside for safety. The mood is curious and gentle, capturing a perfect fall adventure.",
+      "details": [
+        "Two ginger tabby kittens",
+        "Blue light-up or tracker collars",
+        "Forest setting with dry brown leaves",
+        "Black bubble-style backpack carrier",
+        "One kitten is more adventurous, exploring while the other stays inside"
+      ],
+      "analysis": {
+        "status": "multiple_subjects",
+        "main_story": "Two ginger kittens explore the autumnal forest from their cozy backpack carrier. One brave kitten steps out to sniff the dry leaves and climb a branch before heading back inside for safety. The mood is curious and gentle, capturing a perfect fall adventure.",
+        "kitten_details": [
+          "Two ginger tabby kittens",
+          "Blue light-up or tracker collars",
+          "Forest setting with dry brown leaves",
+          "Black bubble-style backpack carrier",
+          "One kitten is more adventurous, exploring while the other stays inside"
+        ]
+      },
+      "meta": {
+        "status": "multiple_subjects",
+        "model_id": "gemini-3-flash-preview",
+        "timestamp": "Fri Jan 16 16:01:51 2026",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/osl33oss6u4f",
+        "original_filename": "kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11.mp4"
+      },
+      "raw": {
+        "original_filename": "kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11.mp4",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/osl33oss6u4f",
+        "timestamp": "Fri Jan 16 16:01:51 2026",
+        "model_id": "gemini-3-flash-preview",
+        "analysis": {
+          "status": "multiple_subjects",
+          "main_story": "Two ginger kittens explore the autumnal forest from their cozy backpack carrier. One brave kitten steps out to sniff the dry leaves and climb a branch before heading back inside for safety. The mood is curious and gentle, capturing a perfect fall adventure.",
+          "kitten_details": [
+            "Two ginger tabby kittens",
+            "Blue light-up or tracker collars",
+            "Forest setting with dry brown leaves",
+            "Black bubble-style backpack carrier",
+            "One kitten is more adventurous, exploring while the other stays inside"
+          ]
+        }
+      }
+    },
+    "kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11": {
+      "asset_key": "kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11",
+      "story": "Two curious ginger kittens wearing blue bow ties are enjoying an outdoor adventure from the safety of their pet carrier backpack. A person gently guides them back inside the carrier as they pause amidst the fallen autumn leaves of a quiet forest. The mood is sweet and playful, capturing a cozy moment of exploration in the woods.",
+      "details": [
+        "Two orange tabby kittens",
+        "Light blue bow ties with blue tracking devices",
+        "Black backpack-style pet carrier",
+        "Forest setting with a thick layer of dry autumn leaves",
+        "Person wearing jeans and a grey sweater"
+      ],
+      "analysis": {
+        "status": "multiple_subjects",
+        "main_story": "Two curious ginger kittens wearing blue bow ties are enjoying an outdoor adventure from the safety of their pet carrier backpack. A person gently guides them back inside the carrier as they pause amidst the fallen autumn leaves of a quiet forest. The mood is sweet and playful, capturing a cozy moment of exploration in the woods.",
+        "kitten_details": [
+          "Two orange tabby kittens",
+          "Light blue bow ties with blue tracking devices",
+          "Black backpack-style pet carrier",
+          "Forest setting with a thick layer of dry autumn leaves",
+          "Person wearing jeans and a grey sweater"
+        ]
+      },
+      "meta": {
+        "status": "multiple_subjects",
+        "model_id": "gemini-3-flash-preview",
+        "timestamp": "Fri Jan 16 16:03:02 2026",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/ga60tnbt8jr7",
+        "original_filename": "kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11.mp4"
+      },
+      "raw": {
+        "original_filename": "kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11.mp4",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/ga60tnbt8jr7",
+        "timestamp": "Fri Jan 16 16:03:02 2026",
+        "model_id": "gemini-3-flash-preview",
+        "analysis": {
+          "status": "multiple_subjects",
+          "main_story": "Two curious ginger kittens wearing blue bow ties are enjoying an outdoor adventure from the safety of their pet carrier backpack. A person gently guides them back inside the carrier as they pause amidst the fallen autumn leaves of a quiet forest. The mood is sweet and playful, capturing a cozy moment of exploration in the woods.",
+          "kitten_details": [
+            "Two orange tabby kittens",
+            "Light blue bow ties with blue tracking devices",
+            "Black backpack-style pet carrier",
+            "Forest setting with a thick layer of dry autumn leaves",
+            "Person wearing jeans and a grey sweater"
+          ]
+        }
+      }
+    },
+    "kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11": {
+      "asset_key": "kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11",
+      "story": "Two adventurous orange tabby kittens explore a wooded area carpeted in crisp autumn leaves. They wear matching blue collars and appear alert and curious as they sniff the ground and practice their climbing skills against a large tree.",
+      "details": [
+        "Two orange tabby kittens",
+        "Blue collar attachments",
+        "Autumn leaves and forest setting",
+        "Curious and active behavior"
+      ],
+      "analysis": {
+        "status": "multiple_subjects",
+        "main_story": "Two adventurous orange tabby kittens explore a wooded area carpeted in crisp autumn leaves. They wear matching blue collars and appear alert and curious as they sniff the ground and practice their climbing skills against a large tree.",
+        "kitten_details": [
+          "Two orange tabby kittens",
+          "Blue collar attachments",
+          "Autumn leaves and forest setting",
+          "Curious and active behavior"
+        ]
+      },
+      "meta": {
+        "status": "multiple_subjects",
+        "model_id": "gemini-3-flash-preview",
+        "timestamp": "Fri Jan 16 16:04:05 2026",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/8kelbt3ay94u",
+        "original_filename": "kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11.mp4"
+      },
+      "raw": {
+        "original_filename": "kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11.mp4",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/8kelbt3ay94u",
+        "timestamp": "Fri Jan 16 16:04:05 2026",
+        "model_id": "gemini-3-flash-preview",
+        "analysis": {
+          "status": "multiple_subjects",
+          "main_story": "Two adventurous orange tabby kittens explore a wooded area carpeted in crisp autumn leaves. They wear matching blue collars and appear alert and curious as they sniff the ground and practice their climbing skills against a large tree.",
+          "kitten_details": [
+            "Two orange tabby kittens",
+            "Blue collar attachments",
+            "Autumn leaves and forest setting",
+            "Curious and active behavior"
+          ]
+        }
+      }
+    },
+    "kitten_on_scratch_pole_2026_01_11": {
+      "asset_key": "kitten_on_scratch_pole_2026_01_11",
+      "story": "A curious orange kitten enjoys some playtime, expertly climbing its scratching post to reach for a hanging toy. The cozy room is filled with books, providing a perfect backdrop for this energetic little explorer's adventures.",
+      "details": [
+        "Orange tabby kitten with a dark collar",
+        "Tall scratching post with a dangling white toy",
+        "Extensive bookshelf filled with various books",
+        "Warm, indoor lighting"
+      ],
+      "analysis": {
+        "status": "clear",
+        "main_story": "A curious orange kitten enjoys some playtime, expertly climbing its scratching post to reach for a hanging toy. The cozy room is filled with books, providing a perfect backdrop for this energetic little explorer's adventures.",
+        "kitten_details": [
+          "Orange tabby kitten with a dark collar",
+          "Tall scratching post with a dangling white toy",
+          "Extensive bookshelf filled with various books",
+          "Warm, indoor lighting"
+        ]
+      },
+      "meta": {
+        "status": "clear",
+        "model_id": "gemini-3-flash-preview",
+        "timestamp": "Fri Jan 16 16:04:53 2026",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/wrctkwpi1w1s",
+        "original_filename": "kitten_on_scratch_pole_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_on_scratch_pole_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kitten_on_scratch_pole_2026_01_11.mp4"
+      },
+      "raw": {
+        "original_filename": "kitten_on_scratch_pole_2026_01_11.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_on_scratch_pole_2026_01_11.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kitten_on_scratch_pole_2026_01_11.mp4",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/wrctkwpi1w1s",
+        "timestamp": "Fri Jan 16 16:04:53 2026",
+        "model_id": "gemini-3-flash-preview",
+        "analysis": {
+          "status": "clear",
+          "main_story": "A curious orange kitten enjoys some playtime, expertly climbing its scratching post to reach for a hanging toy. The cozy room is filled with books, providing a perfect backdrop for this energetic little explorer's adventures.",
+          "kitten_details": [
+            "Orange tabby kitten with a dark collar",
+            "Tall scratching post with a dangling white toy",
+            "Extensive bookshelf filled with various books",
+            "Warm, indoor lighting"
+          ]
+        }
+      }
+    },
+    "kitten_sleep_by_keyboard_2026_01_16": {
+      "asset_key": "kitten_sleep_by_keyboard_2026_01_16",
+      "story": "A tiny ginger kitten finds a cozy napping spot tucked away behind a glowing RGB keyboard and a computer monitor. The kitten stirs briefly to peer curiously at the camera with wide eyes before settling back down for a peaceful rest.",
+      "details": [
+        "Soft ginger coat with subtle tabby stripes.",
+        "Resting in a tech-filled environment with a glowing mechanical keyboard.",
+        "Sweet, sleepy expression as it wakes up and looks directly at the viewer."
+      ],
+      "analysis": {
+        "status": "clear",
+        "main_story": "A tiny ginger kitten finds a cozy napping spot tucked away behind a glowing RGB keyboard and a computer monitor. The kitten stirs briefly to peer curiously at the camera with wide eyes before settling back down for a peaceful rest.",
+        "kitten_details": [
+          "Soft ginger coat with subtle tabby stripes.",
+          "Resting in a tech-filled environment with a glowing mechanical keyboard.",
+          "Sweet, sleepy expression as it wakes up and looks directly at the viewer."
+        ]
+      },
+      "meta": {
+        "status": "clear",
+        "model_id": "gemini-3-flash-preview",
+        "timestamp": "Fri Jan 16 17:31:58 2026",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/84xfzhft4csu",
+        "original_filename": "kitten_sleep_by_keyboard_2026_01_16.mov",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_sleep_by_keyboard_2026_01_16.mov",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kitten_sleep_by_keyboard_2026_01_16.mp4"
+      },
+      "raw": {
+        "original_filename": "kitten_sleep_by_keyboard_2026_01_16.mov",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_sleep_by_keyboard_2026_01_16.mov",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kitten_sleep_by_keyboard_2026_01_16.mp4",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/84xfzhft4csu",
+        "timestamp": "Fri Jan 16 17:31:58 2026",
+        "model_id": "gemini-3-flash-preview",
+        "analysis": {
+          "status": "clear",
+          "main_story": "A tiny ginger kitten finds a cozy napping spot tucked away behind a glowing RGB keyboard and a computer monitor. The kitten stirs briefly to peer curiously at the camera with wide eyes before settling back down for a peaceful rest.",
+          "kitten_details": [
+            "Soft ginger coat with subtle tabby stripes.",
+            "Resting in a tech-filled environment with a glowing mechanical keyboard.",
+            "Sweet, sleepy expression as it wakes up and looks directly at the viewer."
+          ]
+        }
+      }
+    },
+    "boy_kitten_montage_2025_12_13": {
+      "asset_key": "boy_kitten_montage_2025_12_13",
+      "story": "A delightful montage follows several ginger tabby kittens as they discover the joys of play and exploration. The kittens are seen pouncing on toys, following an adult cat, and venturing outdoors among fallen leaves, all while their playful personalities shine. The video ends with a touching tribute to one kitten as he prepares for his new forever home.",
+      "details": [
+        "Vibrant orange tabby fur with white accents around the mouth",
+        "Playful interactions with a blue three-tier track toy",
+        "Adventurous outings in a leafy park with a cat carrier",
+        "Cozy indoor scenes on hardwood floors and plush rugs",
+        "A sweet moment of a kitten yawning on a blue blanket"
+      ],
+      "analysis": {
+        "status": "clear",
+        "main_story": "A delightful montage follows several ginger tabby kittens as they discover the joys of play and exploration. The kittens are seen pouncing on toys, following an adult cat, and venturing outdoors among fallen leaves, all while their playful personalities shine. The video ends with a touching tribute to one kitten as he prepares for his new forever home.",
+        "kitten_details": [
+          "Vibrant orange tabby fur with white accents around the mouth",
+          "Playful interactions with a blue three-tier track toy",
+          "Adventurous outings in a leafy park with a cat carrier",
+          "Cozy indoor scenes on hardwood floors and plush rugs",
+          "A sweet moment of a kitten yawning on a blue blanket"
+        ]
+      },
+      "meta": {
+        "status": "clear",
+        "model_id": "gemini-3-flash-preview",
+        "timestamp": "Fri Jan 16 18:20:30 2026",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/gpiby8y00hul",
+        "original_filename": "boy_kitten_montage_2025_12_13.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_13_dec_07_to_dec_13_ready_for_new_homes/boy_kitten_montage_2025_12_13.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__boy_kitten_montage_2025_12_13.mp4"
+      },
+      "raw": {
+        "original_filename": "boy_kitten_montage_2025_12_13.mp4",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_13_dec_07_to_dec_13_ready_for_new_homes/boy_kitten_montage_2025_12_13.mp4",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__boy_kitten_montage_2025_12_13.mp4",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/gpiby8y00hul",
+        "timestamp": "Fri Jan 16 18:20:30 2026",
+        "model_id": "gemini-3-flash-preview",
+        "analysis": {
+          "status": "clear",
+          "main_story": "A delightful montage follows several ginger tabby kittens as they discover the joys of play and exploration. The kittens are seen pouncing on toys, following an adult cat, and venturing outdoors among fallen leaves, all while their playful personalities shine. The video ends with a touching tribute to one kitten as he prepares for his new forever home.",
+          "kitten_details": [
+            "Vibrant orange tabby fur with white accents around the mouth",
+            "Playful interactions with a blue three-tier track toy",
+            "Adventurous outings in a leafy park with a cat carrier",
+            "Cozy indoor scenes on hardwood floors and plush rugs",
+            "A sweet moment of a kitten yawning on a blue blanket"
+          ]
+        }
+      }
+    },
+    "kitten_on_scooter_seat_2025_12_07": {
+      "asset_key": "kitten_on_scooter_seat_2025_12_07",
+      "story": "A curious ginger kitten explores a stationary bike, perched confidently on the black seat. After looking around the room with wide eyes, the little explorer gracefully hops down to continue its adventures.",
+      "details": [
+        "Orange tabby kitten with soft stripes",
+        "Pointy ears and bright, curious eyes",
+        "Perched on a black bicycle seat in a home setting",
+        "A grey puffer jacket is visible in the background",
+        "Indoor setting with wooden flooring"
+      ],
+      "analysis": {
+        "status": "clear",
+        "main_story": "A curious ginger kitten explores a stationary bike, perched confidently on the black seat. After looking around the room with wide eyes, the little explorer gracefully hops down to continue its adventures.",
+        "kitten_details": [
+          "Orange tabby kitten with soft stripes",
+          "Pointy ears and bright, curious eyes",
+          "Perched on a black bicycle seat in a home setting",
+          "A grey puffer jacket is visible in the background",
+          "Indoor setting with wooden flooring"
+        ]
+      },
+      "meta": {
+        "status": "clear",
+        "model_id": "gemini-3-flash-preview",
+        "timestamp": "Fri Jan 16 19:50:14 2026",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/what404b8mvx",
+        "original_filename": "kitten_on_scooter_seat_2025_12_07.mov",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_13_dec_07_to_dec_13_ready_for_new_homes/kitten_on_scooter_seat_2025_12_07.mov",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kitten_on_scooter_seat_2025_12_07.mp4"
+      },
+      "raw": {
+        "original_filename": "kitten_on_scooter_seat_2025_12_07.mov",
+        "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_13_dec_07_to_dec_13_ready_for_new_homes/kitten_on_scooter_seat_2025_12_07.mov",
+        "shrunk_path": "/home/xzhang/dev/sunnytabbies/temp_files/shrunk__kitten_on_scooter_seat_2025_12_07.mp4",
+        "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/what404b8mvx",
+        "timestamp": "Fri Jan 16 19:50:14 2026",
+        "model_id": "gemini-3-flash-preview",
+        "analysis": {
+          "status": "clear",
+          "main_story": "A curious ginger kitten explores a stationary bike, perched confidently on the black seat. After looking around the room with wide eyes, the little explorer gracefully hops down to continue its adventures.",
+          "kitten_details": [
+            "Orange tabby kitten with soft stripes",
+            "Pointy ears and bright, curious eyes",
+            "Perched on a black bicycle seat in a home setting",
+            "A grey puffer jacket is visible in the background",
+            "Indoor setting with wooden flooring"
+          ]
+        }
+      }
+    }
+  }
+}

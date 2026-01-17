@@ -1,6 +1,30 @@
 [
   {
+    "type": "video",
+    "asset_key": "kitten_sleep_by_keyboard_2026_01_16",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_sleep_by_keyboard_2026_01_16-poster.jpg",
+    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_sleep_by_keyboard_2026_01_16.MOV",
+    "title": "Kitten sleeping under computer monitor, 2026-01-16",
+    "alt": "A tiny ginger kitten naps behind a glowing keyboard and computer monitor, then peeks at the camera.",
+    "stage": "ready_for_launch",
+    "story": "A small ginger kitten finds a cozy napping spot tucked away behind a glowing RGB keyboard and a computer monitor. The kitten stirs briefly to peer curiously at the camera with wide eyes before settling back down for a peaceful rest.",
+    "details": [
+      "Soft ginger coat with subtle tabby stripes.",
+      "Resting in a tech-filled environment with a glowing mechanical keyboard.",
+      "Sweet, sleepy expression as it wakes up and looks directly at the viewer."
+    ],
+    "analysis": {
+      "status": "clear",
+      "model_id": "gemini-3-flash-preview",
+      "timestamp": "Fri Jan 16 17:31:58 2026",
+      "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/84xfzhft4csu",
+      "original_filename": "kitten_sleep_by_keyboard_2026_01_16.mov",
+      "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_sleep_by_keyboard_2026_01_16.mov"
+    }
+  },
+  {
     "type": "youtube",
+    "asset_key": "kitten_attack_tripod_2026_01_12",
     "videoId": "RKyCLWfLGqg",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_attack_tripod_2026_01_12-poster.jpg",
     "title": "Kitten playfully attacking the tripod, 2026-01-12",
@@ -9,43 +33,125 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kitten_on_scratch_pole_2026_01_11",
     "videoId": "m_Qt_54wMSc",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_on_scratch_pole_2026_01_11-poster.jpg",
     "title": "Kitten climbing and perching on the scratch post, 2026-01-11",
     "alt": "Kitten climbing up a tall scratch post and sitting on top while playing with a teaser, 2026-01-11",
-    "stage": "ready_for_launch"
+    "stage": "ready_for_launch",
+    "story": "A curious orange kitten enjoys some playtime, expertly climbing its scratching post to reach for a hanging toy. The cozy room is filled with books, providing a perfect backdrop for this energetic little explorer's adventures.",
+    "details": [
+      "Orange tabby kitten with a dark collar",
+      "Tall scratching post with a dangling white toy",
+      "Extensive bookshelf filled with various books",
+      "Warm, indoor lighting"
+    ],
+    "analysis": {
+      "status": "clear",
+      "model_id": "gemini-3-flash-preview",
+      "timestamp": "Fri Jan 16 16:04:53 2026",
+      "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/wrctkwpi1w1s",
+      "original_filename": "kitten_on_scratch_pole_2026_01_11.mp4",
+      "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_on_scratch_pole_2026_01_11.mp4"
+    }
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11",
     "videoId": "ZkdcErtX4Ds",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11-poster.jpg",
     "title": "First time in the woods — bold explorer and cautious observer, 2026-01-11",
     "alt": "Two kittens outdoors for the first time in the woods; one steps out of the carrier confidently while the other stays cautious at first, 2026-01-11",
-    "stage": "ready_for_launch"
+    "stage": "ready_for_launch",
+    "story": "Two ginger kittens explore the autumnal forest from their cozy backpack carrier. One brave kitten steps out to sniff the dry leaves and climb a branch before heading back inside for safety. The mood is curious and gentle, capturing a perfect fall adventure.",
+    "details": [
+      "Two ginger tabby kittens",
+      "Blue light-up or tracker collars",
+      "Forest setting with dry brown leaves",
+      "Black bubble-style backpack carrier",
+      "One kitten is more adventurous, exploring while the other stays inside"
+    ],
+    "analysis": {
+      "status": "multiple_subjects",
+      "model_id": "gemini-3-flash-preview",
+      "timestamp": "Fri Jan 16 16:01:51 2026",
+      "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/osl33oss6u4f",
+      "original_filename": "kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11.mp4",
+      "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_bold_vs_cautious_brighton_2026_01_11.mp4"
+    }
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11",
     "videoId": "4_NhU4MfuYc",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11-poster.jpg",
     "title": "First time in the woods — good behavior vs a little trouble, 2026-01-11",
     "alt": "Two kittens preparing to leave the woods; one stays calmly in the carrier while the other escapes and runs off briefly, 2026-01-11",
-    "stage": "ready_for_launch"
+    "stage": "ready_for_launch",
+    "story": "Two curious ginger kittens wearing blue bow ties are enjoying an outdoor adventure from the safety of their pet carrier backpack. A person gently guides them back inside the carrier as they pause amidst the fallen autumn leaves of a quiet forest. The mood is sweet and playful, capturing a cozy moment of exploration in the woods.",
+    "details": [
+      "Two orange tabby kittens",
+      "Light blue bow ties with blue tracking devices",
+      "Black backpack-style pet carrier",
+      "Forest setting with a thick layer of dry autumn leaves",
+      "Person wearing jeans and a grey sweater"
+    ],
+    "analysis": {
+      "status": "multiple_subjects",
+      "model_id": "gemini-3-flash-preview",
+      "timestamp": "Fri Jan 16 16:03:02 2026",
+      "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/ga60tnbt8jr7",
+      "original_filename": "kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11.mp4",
+      "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_good_vs_trouble_brighton_2026_01_11.mp4"
+    }
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11",
     "videoId": "UCTL60TkoW8",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11-poster.jpg",
     "title": "First time in the woods — listening to birds, 2026-01-11",
     "alt": "Kittens in the woods pausing to listen to birds chirping, appearing alert and curious, 2026-01-11",
-    "stage": "ready_for_launch"
+    "stage": "ready_for_launch",
+    "story": "Two adventurous orange tabby kittens explore a wooded area carpeted in crisp autumn leaves. They wear matching blue collars and appear alert and curious as they sniff the ground and practice their climbing skills against a large tree.",
+    "details": [
+      "Two orange tabby kittens",
+      "Blue collar attachments",
+      "Autumn leaves and forest setting",
+      "Curious and active behavior"
+    ],
+    "analysis": {
+      "status": "multiple_subjects",
+      "model_id": "gemini-3-flash-preview",
+      "timestamp": "Fri Jan 16 16:04:05 2026",
+      "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/8kelbt3ay94u",
+      "original_filename": "kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11.mp4",
+      "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_1st_time_in_woods_listen_to_birds_brighton_2026_01_11.mp4"
+    }
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_in_car_2026_01_11",
     "videoId": "zfuSIH7Mnrc",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_in_car_2026_01_11-poster.jpg",
     "title": "Kittens exploring a parked car, climbing in and out, 2026-01-11",
     "alt": "Two kittens exploring a parked car with the door open, climbing in and out curiously, 2026-01-11",
-    "stage": "ready_for_launch"
+    "stage": "ready_for_launch",
+    "story": "Two curious ginger kittens are seen exploring the inside of a car, hopping around the front seats with playful energy. One of the kittens, wearing a small blue device on its collar, stands confidently on the edge of the seat, peering out through the open door at the world outside.",
+    "details": [
+      "Orange tabby fur",
+      "Blue collar accessory",
+      "Black car interior",
+      "White vehicle"
+    ],
+    "analysis": {
+      "status": "multiple_subjects",
+      "model_id": "gemini-3-flash-preview",
+      "timestamp": "Fri Jan 16 15:33:38 2026",
+      "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/ls8dmd2yreb6",
+      "original_filename": "kittens_in_car_2026_01_11.mp4",
+      "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_18_jan_11_to_jan_17_ready_for_new_homes/kittens_in_car_2026_01_11.mp4"
+    }
   },
   {
     "type": "image",
@@ -105,14 +211,57 @@
   },
   {
     "type": "youtube",
+    "asset_key": "boy_kitten_montage_2025_12_13",
     "videoId": "9mD8AP29ftY",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_13_dec_07_to_dec_13_ready_for_new_homes/boy_kitten_montage_2025_12_13-poster.jpg",
     "title": "Boy kitten goodbye montage — from baby to leaving home, through 2025-12-13",
     "alt": "Montage showing a boy kitten growing from a small baby into brave boyhood, with clips spanning his development through December 13, 2025",
-    "stage": "ready_for_launch"
+    "stage": "ready_for_launch",
+    "analysis": {
+      "status": "clear",
+      "model_id": "gemini-3-flash-preview",
+      "timestamp": "Fri Jan 16 18:20:30 2026",
+      "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/gpiby8y00hul",
+      "original_filename": "boy_kitten_montage_2025_12_13.mp4",
+      "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_13_dec_07_to_dec_13_ready_for_new_homes/boy_kitten_montage_2025_12_13.mp4"
+    },
+    "story": "A delightful montage follows several ginger tabby kittens as they discover the joys of play and exploration. The kittens are seen pouncing on toys, following an adult cat, and venturing outdoors among fallen leaves, all while their playful personalities shine. The video ends with a touching tribute to one kitten as he prepares for his new forever home.",
+    "details": [
+      "Vibrant orange tabby fur with white accents around the mouth",
+      "Playful interactions with a blue three-tier track toy",
+      "Adventurous outings in a leafy park with a cat carrier",
+      "Cozy indoor scenes on hardwood floors and plush rugs",
+      "A sweet moment of a kitten yawning on a blue blanket"
+    ]
+  },
+  {
+    "type": "video",
+    "asset_key": "kitten_on_scooter_seat_2025_12_07",
+    "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_13_dec_07_to_dec_13_ready_for_new_homes/kitten_on_scooter_seat_2025_12_07-poster.jpg",
+    "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_13_dec_07_to_dec_13_ready_for_new_homes/kitten_on_scooter_seat_2025_12_07.MOV",
+    "title": "Curious ginger kitten explores a stationary bike, perched confidently on the black seat, 2025-12-07",
+    "alt": "Curious ginger kitten explores a stationary bike, perched confidently on the black seat.",
+    "stage": "ready_for_launch",
+    "analysis": {
+      "status": "clear",
+      "model_id": "gemini-3-flash-preview",
+      "timestamp": "Fri Jan 16 19:50:14 2026",
+      "file_uri": "https://generativelanguage.googleapis.com/v1beta/files/what404b8mvx",
+      "original_filename": "kitten_on_scooter_seat_2025_12_07.mov",
+      "original_path": "/mnt/c/Users/xzhan/Videos/temp_media_placeholder/week_13_dec_07_to_dec_13_ready_for_new_homes/kitten_on_scooter_seat_2025_12_07.mov"
+    },
+    "story": "A curious ginger kitten explores a stationary bike, perched confidently on the black seat. After looking around the room with wide eyes, the little explorer gracefully hops down to continue its adventures.",
+    "details": [
+      "Orange tabby kitten with soft stripes",
+      "Pointy ears and bright, curious eyes",
+      "Perched on a black bicycle seat in a home setting",
+      "A grey puffer jacket is visible in the background",
+      "Indoor setting with wooden flooring"
+    ]
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_playing_with_ball_tray_vid_2_2025_12_05",
     "videoId": "WWqo7YH2K5c",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_12_nov_30_to_dec_06_ready_for_new_homes/kittens_playing_with_ball_tray_vid_2_2025_12_05-poster.jpg",
     "title": "Kittens playing with the ball track, video 2, 2025-12-05",
@@ -121,6 +270,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_playing_with_ball_tray_vid_1_2025_12_05",
     "videoId": "Mq9hCbIJdCQ",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_12_nov_30_to_dec_06_ready_for_new_homes/kittens_playing_with_ball_tray_vid_1_2025_12_05-poster.jpg",
     "title": "Kittens playing with the ball track, video 1, 2025-12-05",
@@ -145,6 +295,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_outside_playing_in_shrubs_2025_12_01",
     "videoId": "7pA_bk0Te4U",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_12_nov_30_to_dec_06_ready_for_new_homes/kittens_outside_playing_in_shrubs_2025_12_01-poster.jpg",
     "title": "Kittens exploring the shrubs outside, 2025-12-01",
@@ -169,6 +320,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_at_chand_pond_vid_3_2025_11_26",
     "videoId": "JGhrjP2KHZE",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_11_nov_23_to_nov_29_personalities/kittens_at_chand_pond_vid_3_2025_11_26-poster.jpg",
     "title": "Kittens at Chandler Pond (video 3), 2025-11-26",
@@ -177,6 +329,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_at_chand_pond_vid_2_2025_11_26",
     "videoId": "w8JCARYXF_Y",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_11_nov_23_to_nov_29_personalities/kittens_at_chand_pond_vid_2_2025_11_26-poster.jpg",
     "title": "Kittens at Chandler Pond (video 2), 2025-11-26",
@@ -185,6 +338,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_at_chand_pond_vid_1_2025_11_26",
     "videoId": "ql_D1cGnr_I",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_11_nov_23_to_nov_29_personalities/kittens_at_chand_pond_vid_1_2025_11_26-poster.jpg",
     "title": "Kittens at Chandler Pond (video 1), 2025-11-26",
@@ -192,7 +346,16 @@
     "stage": "big_big_world"
   },
   {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_11_nov_23_to_nov_29_personalities/kittens_group_huddle_2025_11_24-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_11_nov_23_to_nov_29_personalities/kittens_group_huddle_2025_11_24.JPEG",
+    "title": "All kittens sleeping on sofa around Thanksgiving, 2025-11-24",
+    "alt": "All kittens sleeping together on a soft blanket - last family portraits",
+    "stage": "big_big_world"
+  },
+  {
     "type": "youtube",
+    "asset_key": "kitten_sitting_in_park_2025_11_19",
     "videoId": "S3JmDnsPWE8",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_10_nov_16_to_nov_22_personalities/kitten_sitting_in_park_2025_11_19-poster.jpg",
     "title": "Kitten perching on a rock in the park, 2025-11-19",
@@ -201,6 +364,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_playing_in_park_vid_2_2025_11_19",
     "videoId": "ZRMnDiLyF7U",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_10_nov_16_to_nov_22_personalities/kittens_playing_in_park_vid_2_2025_11_19-poster.jpg",
     "title": "Kittens playing in the park (video 2), 2025-11-19",
@@ -209,6 +373,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_playing_in_park_vid_1_2025_11_19",
     "videoId": "wta2P3xw_5s",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_10_nov_16_to_nov_22_personalities/kittens_playing_in_park_vid_1_2025_11_19-poster.jpg",
     "title": "Kittens playing in the park (video 1), 2025-11-19",
@@ -217,6 +382,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "girl_kitten_ouside_in_coat_2025_11_13",
     "videoId": "8Hxd9NOS5-w",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_9_nov_09_to_nov_15_personalities/girl_kitten_ouside_in_coat_2025_11_13-poster.jpg",
     "title": "Girl kitten snuggle in coat - outside near Chandler Pond, Brighton, 2025-11-13",
@@ -225,6 +391,7 @@
   },
   {
     "type": "video",
+    "asset_key": "kitten_pawing_on_sofa_2025_11_12",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_9_nov_09_to_nov_15_personalities/kitten_pawing_on_sofa_2025_11_12-poster.jpg",
     "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_9_nov_09_to_nov_15_personalities/kitten_pawing_on_sofa_2025_11_12.mp4",
     "title": "Kitten pawing on sofa, 2025-11-12",
@@ -233,6 +400,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_playing_with_wand_vid_2_2025_11_9",
     "videoId": "efwUvpatLl4",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_9_nov_09_to_nov_15_personalities/kittens_playing_with_wand_vid_2_2025_11_9-poster.jpg",
     "title": "Kittens playing with wand toy (video 2), 2025-11-09",
@@ -257,6 +425,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_and_electric_skateboard_2025_11_05",
     "videoId": "W4MIlwiO2FU",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kittens_and_electric_skateboard_2025_11_05-poster.jpg",
     "title": "Kittens curious about the electric skateboard, 2025-11-05",
@@ -297,6 +466,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_playing_with_wand_vid_1_2025_11_4",
     "videoId": "CtX3zLK5tAU",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_8_nov_02_to_nov_08_personalities/kittens_playing_with_wand_vid_1_2025_11_4-poster.jpg",
     "title": "Kittens play with wand 2025-11-04",
@@ -305,6 +475,7 @@
   },
   {
     "type": "video",
+    "asset_key": "kitten_in_hoody_2025_11_01",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_in_hoody_2025_11_01-poster.jpg",
     "src": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_in_hoody_2025_11_01.mp4",
     "title": "Kitten in hoody, 2025-11-01",
@@ -313,6 +484,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kitten_goofing_off_2025_10_29",
     "videoId": "9VMgsovOQdA",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_goofing_off_2025_10_29-poster.jpg",
     "title": "Kitten goofing off, 2025-10-29",
@@ -321,6 +493,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kitten_sibling_pairs_2025_10_29",
     "videoId": "GjEJrcbEENo",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kitten_sibling_pairs_2025_10_29-poster.jpg",
     "title": "Kitten sibling pairs hangout together, 2025-10-29",
@@ -337,6 +510,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_in_hallway_2025_10_28",
     "videoId": "y0q9DqTuUUo",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kittens_in_hallway_2025_10_28-poster.jpg",
     "title": "Kittens in hallway the first time, 2025-10-28",
@@ -345,6 +519,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_group_jitsu_on_black_foam_mats_2025_10_30",
     "videoId": "6XvNqnpTPeo",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/kittens_group_jitsu_on_black_foam_mats_2025_10_30-poster.jpg",
     "title": "Kittens doing group jitsu on black foam/matts, 2025-10-30",
@@ -377,6 +552,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "girl_kitten_walk_outside_2025_10_26",
     "videoId": "Axe7ovtP-Jw",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/girl_kitten_walk_outside_2025_10_26-poster.jpg",
     "title": "Girl kitten walking outside — Chandler Pond, 2025-10-26",
@@ -385,6 +561,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "boy_kitten_walk_outside_2025_10_26",
     "videoId": "EpqI8PyVP1g",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_7_oct_26_to_nov_01_meet_outside/boy_kitten_walk_outside_2025_10_26-poster.jpg",
     "title": "Boy kitten walking outside — Chandler Pond, 2025-10-26",
@@ -457,6 +634,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kittens_tussling_brother_bdrm_on_black_foams_2025_10_19",
     "videoId": "A4SEFQdXU6A",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_6_oct_19_to_oct_25_exploration/kittens_tussling_brother_bdrm_on_black_foams_2025_10_19-poster.jpg",
     "title": "Kittens wrestling and playing, 2025-10-19",
@@ -481,6 +659,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "kitten_in_wheel_2025_10_17",
     "videoId": "hdUNZY8vsJg",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_5_oct_12_to_oct_18_socialization/kitten_in_wheel_2025_10_17-poster.jpg",
     "title": "Kitten playing in wheel, 2025-10-17",
@@ -529,6 +708,7 @@
   },
   {
     "type": "youtube",
+    "asset_key": "first_steps_vid_1_2025_10_10",
     "videoId": "Zqk5Wku8QEk",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_4_oct_05_to_oct_11_crawling/first_steps_vid_1_2025_10_10-poster.jpg",
     "title": "Kitten learning how to walk 2025-10-10",
