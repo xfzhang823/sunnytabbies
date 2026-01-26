@@ -1,5 +1,29 @@
 [
   {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_19_jan_18_to_jan_24_ready_for_new_homes/girl_kittens_on_couch_1_2026_01_23-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_19_jan_18_to_jan_24_ready_for_new_homes/girl_kittens_on_couch_1_2026_01_23.JPEG",
+    "title": "Bonded sister kittens relaxing together on the couch, 2026-01-23",
+    "alt": "Two young tabby sister kittens resting together on a couch indoors, alert and calm in a home setting",
+    "stage": "ready_for_launch"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_19_jan_18_to_jan_24_ready_for_new_homes/girl_kittens_on_couch_2_2026_01_23-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_19_jan_18_to_jan_24_ready_for_new_homes/girl_kittens_on_couch_2_2026_01_23.JPEG",
+    "title": "Sister kittens lounging comfortably side by side, 2026-01-23",
+    "alt": "Two sister tabby kittens sitting and lying together on a couch, relaxed and comfortable in a quiet indoor space",
+    "stage": "ready_for_launch"
+  },
+  {
+    "type": "image",
+    "thumb": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_19_jan_18_to_jan_24_ready_for_new_homes/kitten_on_couch_1_2026_01_23-thumb.jpg",
+    "full": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_19_jan_18_to_jan_24_ready_for_new_homes/kitten_on_couch_1_2026_01_23.JPEG",
+    "title": "Playful kitten stretching out on the couch, 2026-01-23",
+    "alt": "Young tabby kitten lying upside down on a couch indoors, relaxed and playful in a familiar home environment",
+    "stage": "ready_for_launch"
+  },
+  {
     "type": "video",
     "asset_key": "kitten_sleep_by_keyboard_2026_01_16",
     "poster": "https://pub-1ebfe0432b564765902857dc1722eb31.r2.dev/week_18_jan_11_to_jan_17_ready_for_new_homes/kitten_sleep_by_keyboard_2026_01_16-poster.jpg",
