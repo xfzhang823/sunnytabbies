@@ -480,29 +480,32 @@ function buildStageNav() {
   const mount = document.getElementById("stage-nav-inner");
   if (!mount) return;
 
-  const stageSections = Array.from(
-    document.querySelectorAll("section.gallery-stage[data-stage]")
+  const navSections = Array.from(
+    document.querySelectorAll(
+      "section.gallery-stage[data-stage], section[data-stage-nav]"
+    )
   );
-  if (!stageSections.length) return;
+  if (!navSections.length) return;
 
   const nav = document.createElement("div");
   nav.className = "stage-nav";
   nav.setAttribute("role", "tablist");
   nav.setAttribute("aria-label", "Jump to stage");
 
-  stageSections.forEach((sec) => {
+  navSections.forEach((sec) => {
     const stageKey = (sec.getAttribute("data-stage") || "").trim();
-    if (!stageKey) return;
+    const customLabel = (sec.getAttribute("data-stage-nav") || "").trim();
+    if (!stageKey && !customLabel && !sec.querySelector("h2")) return;
 
     // ✅ Use the existing, unique grid id from your HTML: stage-first_moves, etc.
-    const gridId = `stage-${stageKey}`;
-    const gridEl = document.getElementById(gridId);
+    const gridId = stageKey ? `stage-${stageKey}` : "";
+    const gridEl = gridId ? document.getElementById(gridId) : null;
 
     // If the grid isn't found for some reason, fall back to the section itself
     const targetEl = gridEl || sec;
 
     const h2 = sec.querySelector("h2");
-    const label = (h2?.textContent || stageKey || "Stage").trim();
+    const label = (customLabel || h2?.textContent || stageKey || "Stage").trim();
 
     const btn = document.createElement("button");
     btn.type = "button";
@@ -527,7 +530,7 @@ function buildStageNav() {
 
   // Optional highlight helper (safe if missing)
   if (typeof enableActiveStageHighlight === "function") {
-    enableActiveStageHighlight(nav, stageSections);
+    enableActiveStageHighlight(nav, navSections);
   }
 }
 
